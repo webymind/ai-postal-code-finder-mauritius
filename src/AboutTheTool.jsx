@@ -1,7 +1,7 @@
 import React from "react";
 
 const AboutTheTool = () => (
-  <div className="bg-light p-4 rounded">
+  <div className="bg-light  rounded">
     <h2 className="text-primary mb-3">About the Tool</h2>
     <p>
       This tool uses advanced AI algorithms to quickly find postal codes based

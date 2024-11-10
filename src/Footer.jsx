@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => (
   <footer
-    className="text-center py-3 shadow-lg mt-4"
+    className="text-center py-3 shadow-lg hoe mt-4"
     style={{
       backgroundColor: "rgba(255, 255, 255, 0.85)", // Translucent white background
       backdropFilter: "blur(5px)", // Blur effect for consistency
