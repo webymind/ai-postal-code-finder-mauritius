@@ -75,13 +75,17 @@ body {
 }
 
 
+
+
 /* General Desktop and Tablet Styles */
 #mob .card {
   background-color: rgba(255, 255, 255, 0.85);
   border-radius: 15px;
   padding: 1.5rem;
   max-width: 700px; /* Only affect desktop size */
-  width: auto;
+  width: 150%;
+  display: flex;
+  justify-self: center;
 }
 
 #mob .form-control {
@@ -109,9 +113,77 @@ body {
   }
 
   #mob .position-relative {
-    margin-bottom: 15px;
+    margin-bottom: -10px;
+  }
+
+  #mob.w-100{
+    width: 160%!important;
+  }
+
+  .res{
+        width: 150%;
+    display: flex;
+    justify-self: center;
+  }
+
+  .hoe{
+    width: 128%;
+    display: flex;
+    justify-self: center;
+  }
+
+  .close{
+    display: none;
+  }
+
+  .spac{
+    margin-bottom: 5rem !important;
+  }
+
+  h1{
+    font-size: 1.06em!important;
+  }
+
+  .psw{
+    height: 47px!important;
+    font-size: 1.2em!important;
+  }
+
+
+}
+
+@media (min-width: 768px) {
+    .col-md-5 {
+        flex: 0 0 auto;
+        width: 49.666667%;
+    }
+
+      .p-4 {
+      padding: 0.5rem !important;
+  }
+
+    .p-3 {
+      padding: 1.5em !important;
+  }
+
+  .mb-5 {
+      margin-bottom: 5rem !important;
   }
 }
+
+@media (min-width: 1140px){
+    .p-4 {
+        padding: 1.5rem !important;
+
+    }
+}
+
+@media (min-width: 768px) {
+    .mb-5 {
+        margin-bottom: 2rem !important;
+    }
+}
+
 
 
 

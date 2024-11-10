@@ -13560,7 +13560,10 @@ const TizardinAiPostalCodeFinder = () => {
 
       <Row className="text-center mb-4" style={{ zIndex: 1 }}>
         <Col>
-          <h1 className="display-4 fw-bold" style={{ color: "#76c014" }}>
+          <h1
+            className="display-4 fw-bold"
+            style={{ color: "#76c014", fontSize: "1.5em" }}
+          >
             Tizardin AI Postal Code Finder
           </h1>
         </Col>
@@ -13659,13 +13662,13 @@ const TizardinAiPostalCodeFinder = () => {
       </Row> */}
 
       <Row
-        className="w-100 justify-content-center mb-5"
+        className="w-100 justify-content-center mb-5 spac"
         id="mob"
         style={{ zIndex: 1 }}
       >
         <Col xs={10} sm={8} md={8} lg={6}>
           <Card
-            className="p-12 shadow-lg"
+            className="p-3 shadow-lg imob"
             style={{
               backgroundColor: "rgba(255, 255, 255, 0.85)",
               borderRadius: "15px",
@@ -13674,9 +13677,8 @@ const TizardinAiPostalCodeFinder = () => {
             }}
           >
             <Form>
-              <Row className="gy-3 align-items-center">
-                {/* City Input - Full width on mobile, half-width on md and larger */}
-                <Col xs={12} md={5} className="position-relative">
+              <Row className="gx-2 align-items-center">
+                <Col xs={5} className="position-relative">
                   <Form.Group controlId="cityInput">
                     <Form.Control
                       type="text"
@@ -13684,7 +13686,7 @@ const TizardinAiPostalCodeFinder = () => {
                       onChange={(e) => setCity(e.target.value)}
                       placeholder="City"
                       className="rounded-pill"
-                      style={{ paddingRight: "30px" }} // Add padding for the "X" button
+                      style={{ paddingRight: "30px" }}
                     />
                     {city && (
                       <Button
@@ -13708,8 +13710,7 @@ const TizardinAiPostalCodeFinder = () => {
                   </Form.Group>
                 </Col>
 
-                {/* Locality Input - Full width on mobile, half-width on md and larger */}
-                <Col xs={12} md={5} className="position-relative">
+                <Col xs={5} className="position-relative">
                   <Form.Group controlId="localityInput">
                     <Form.Control
                       type="text"
@@ -13717,7 +13718,7 @@ const TizardinAiPostalCodeFinder = () => {
                       onChange={(e) => setLocality(e.target.value)}
                       placeholder="Locality"
                       className="rounded-pill"
-                      style={{ paddingRight: "30px" }} // Add padding for the "X" button
+                      style={{ paddingRight: "30px" }}
                     />
                     {locality && (
                       <Button
@@ -13741,27 +13742,20 @@ const TizardinAiPostalCodeFinder = () => {
                   </Form.Group>
                 </Col>
 
-                {/* Search Button - Full width on mobile, 2 columns wide on md and larger */}
                 <Col
-                  xs={12}
-                  md={2}
+                  xs={2}
                   className="d-flex align-items-center justify-content-center"
                 >
                   <Button
                     variant="success"
-                    className="rounded-pill px-6 w-100 pad"
+                    className="rounded-pill px-2 psw"
                     onClick={() => {}}
                     style={{
-                      fontSize: "1rem",
-                      height: "38px", // Adjust height to match input fields
-                      whiteSpace: "nowrap",
+                      height: "38px",
+                      fontSize: "1.2rem",
                     }}
                   >
-                    {isSearching ? (
-                      <Spinner animation="border" size="sm" />
-                    ) : (
-                      <FontAwesomeIcon icon={faSearch} />
-                    )}
+                    <FontAwesomeIcon icon={faSearch} />
                   </Button>
                 </Col>
               </Row>
@@ -13779,7 +13773,7 @@ const TizardinAiPostalCodeFinder = () => {
             {suggestions.map((suggestion) => (
               <Card
                 key={suggestion.postalCode}
-                className="mb-3 shadow-lg"
+                className="mb-3 shadow-lg res"
                 style={{
                   backgroundColor: "rgba(255, 255, 255, 0.9)",
                   borderRadius: "10px",
@@ -13805,7 +13799,7 @@ const TizardinAiPostalCodeFinder = () => {
       <Row className="my-5 w-100 justify-content-center" style={{ zIndex: 1 }}>
         <Col xs={12} md={5} lg={4} className="mb-3">
           <Card
-            className="p-4 shadow-lg"
+            className="p-4 shadow-lg hoe"
             style={{
               backgroundColor: "rgba(255, 255, 255, 0.85)",
               borderRadius: "10px",
@@ -13816,7 +13810,7 @@ const TizardinAiPostalCodeFinder = () => {
         </Col>
         <Col xs={12} md={5} lg={4} className="mb-3">
           <Card
-            className="p-4  shadow-lg"
+            className="p-4  shadow-lg hoe"
             style={{
               backgroundColor: "rgba(255, 255, 255, 0.85)",
               borderRadius: "10px",

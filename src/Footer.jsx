@@ -13,7 +13,18 @@ const Footer = () => (
       color: "#000", // Dark text color for readability
     }}
   >
-    &copy; 2024 Tizardin.mu - All Rights Reserved
+    &copy; 2024{" "}
+    <a
+      style={{
+        color: "#76c014",
+        textDecoration: "none",
+      }}
+      href="https://tizardin.mu"
+      rel="follow"
+    >
+      Tizardin.mu
+    </a>{" "}
+    - All Rights Reserved
   </footer>
 );
 

@@ -19,6 +19,32 @@ if ("serviceWorker" in navigator) {
   });
 }
 
+let deferredPrompt;
+
+window.addEventListener("beforeinstallprompt", (e) => {
+  // Prevent the mini-infobar from appearing
+  e.preventDefault();
+  // Save the event for triggering later
+  deferredPrompt = e;
+
+  // Show your custom install button here or trigger the install prompt manually
+  const installButton = document.getElementById("install-button");
+  installButton.style.display = "block";
+
+  installButton.addEventListener("click", () => {
+    installButton.style.display = "none";
+    deferredPrompt.prompt();
+    deferredPrompt.userChoice.then((choiceResult) => {
+      if (choiceResult.outcome === "accepted") {
+        console.log("User accepted the PWA prompt");
+      } else {
+        console.log("User dismissed the PWA prompt");
+      }
+      deferredPrompt = null;
+    });
+  });
+});
+
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <App />
