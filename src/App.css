@@ -126,11 +126,13 @@ body {
     justify-self: center;
   }
 
-  /* .hoe{
-    width: 128%;
+  .hoe{
+    width: fit-content;
     display: flex;
     justify-self: center;
-  } */
+  }
+
+  
 
   .close{
     display: none;
