@@ -1,0 +1,137 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.h-100 {
+    height: 100%!important;
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: rgb(248 249 250 / 25%) !important;
+}
+
+.text-primary {
+    --bs-text-opacity: 1;
+    color: rgb(118 192 20) !important;
+}
+
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    /* background-color: var(--bs-body-bg); */
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.3px);
+    -webkit-backdrop-filter: blur(7.3px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+/* General Desktop and Tablet Styles */
+#mob .card {
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 15px;
+  padding: 1.5rem;
+  max-width: 700px; /* Only affect desktop size */
+  width: auto;
+}
+
+#mob .form-control {
+  width: 100%;
+  font-size: 1rem;
+}
+
+/* Mobile-specific styles */
+@media only screen and (max-width: 767px) {
+  #mob .card {
+    max-width: 340px;
+    padding: 20px;
+    border-radius: 15px;
+  }
+
+  #mob .form-control {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  #mob .btn {
+    width: 100%;
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  #mob .position-relative {
+    margin-bottom: 15px;
+  }
+}
+
+
+
+
+
+/* .P-4 {
+    padding: 1.5rem !important;
+} */
+
+@media (max-width: 375px) {
+  .close {
+    top: 39%!important;
+    right: -63px!important;
+  }
+
+  .pad{
+    padding-top: 4px!important;
+  }
+
+.p-4 {
+    padding: 0.5rem !important;
+}
+}
