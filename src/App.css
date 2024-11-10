@@ -155,7 +155,7 @@ body {
 @media (min-width: 768px) {
     .col-md-5 {
         flex: 0 0 auto;
-        width: 49.666667%;
+        width: 40.666667%;
     }
 
       .p-4 {
