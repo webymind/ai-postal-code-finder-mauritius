@@ -126,11 +126,11 @@ body {
     justify-self: center;
   }
 
-  .hoe{
+  /* .hoe{
     width: 128%;
     display: flex;
     justify-self: center;
-  }
+  } */
 
   .close{
     display: none;
