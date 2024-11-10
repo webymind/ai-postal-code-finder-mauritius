@@ -127,7 +127,8 @@ body {
   }
 
   .hoe{
-    width: fit-content;
+    /* width: fit-content; */
+    width: 112%;
     display: flex;
     justify-self: center;
   }
