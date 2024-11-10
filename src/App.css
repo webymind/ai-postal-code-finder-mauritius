@@ -121,16 +121,17 @@ body {
   }
 
   .res{
-        width: 150%;
+    /* width: fit-content; */
     display: flex;
-    justify-self: center;
+    justify-self: center!important;
+    width: 133%;
   }
 
   .hoe{
     /* width: fit-content; */
-    width: 112%;
+    width: 133%;
     display: flex;
-    justify-self: center;
+    justify-self: center!important;
   }
 
   
