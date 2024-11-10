@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
 
+// Register Service Worker
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
     navigator.serviceWorker
@@ -21,28 +22,32 @@ if ("serviceWorker" in navigator) {
 
 let deferredPrompt;
 
+// Listen for the 'beforeinstallprompt' event
 window.addEventListener("beforeinstallprompt", (e) => {
-  // Prevent the mini-infobar from appearing
+  console.log("beforeinstallprompt event fired");
   e.preventDefault();
-  // Save the event for triggering later
   deferredPrompt = e;
 
-  // Show your custom install button here or trigger the install prompt manually
+  // Show the install button if available
   const installButton = document.getElementById("install-button");
-  installButton.style.display = "block";
+  if (installButton) {
+    installButton.style.display = "block";
+  }
+});
 
-  installButton.addEventListener("click", () => {
-    installButton.style.display = "none";
-    deferredPrompt.prompt();
-    deferredPrompt.userChoice.then((choiceResult) => {
-      if (choiceResult.outcome === "accepted") {
-        console.log("User accepted the PWA prompt");
-      } else {
-        console.log("User dismissed the PWA prompt");
+// Wait until the DOM is loaded to attach the event listener
+window.addEventListener("DOMContentLoaded", () => {
+  const installButton = document.getElementById("install-button");
+  if (installButton) {
+    installButton.addEventListener("click", async () => {
+      if (deferredPrompt) {
+        deferredPrompt.prompt();
+        const { outcome } = await deferredPrompt.userChoice;
+        console.log(`User response to the install prompt: ${outcome}`);
+        deferredPrompt = null;
       }
-      deferredPrompt = null;
     });
-  });
+  }
 });
 
 createRoot(document.getElementById("root")).render(
