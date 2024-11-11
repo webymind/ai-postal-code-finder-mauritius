@@ -267,8 +267,9 @@ body {
         /* width: fit-content; */
         display: flex;
         justify-self: center !important;
-        width: fit-content;
-        width: 100%!important;
+        width: fit-content; 
+        width: 121%!important;
+        margin-left: -53px!important;
     }
 }
 
