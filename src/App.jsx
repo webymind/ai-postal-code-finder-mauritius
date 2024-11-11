@@ -13547,7 +13547,7 @@ const TizardinAiPostalCodeFinder = () => {
       className="min-vh-100 d-flex flex-column justify-content-center align-items-center"
     >
       <div
-        className="position-absolute top-0 start-0 w-100 h-100"
+        className="position-absolute top-0 start-0 w-100 h-100 bg"
         style={{
           backgroundImage: "url('/img/tizardin.mu-ai-postal-1.png')",
           backgroundColor: "rgba(0, 0, 0, 0.6)",
@@ -13555,6 +13555,7 @@ const TizardinAiPostalCodeFinder = () => {
           backgroundSize: "cover",
           backgroundAttachment: "fixed",
           backgroundRepeat: "no-repeat",
+          overflowX: "hidden",
         }}
       ></div>
 
@@ -13568,98 +13569,6 @@ const TizardinAiPostalCodeFinder = () => {
           </h1>
         </Col>
       </Row>
-
-      {/* <Row
-        className="w-100 justify-content-center mb-5"
-        id="mob"
-        style={{ zIndex: 1 }}
-      >
-        <Col xs={10} md={8} lg={6}>
-          <Card
-            className="p-4 shadow-lg"
-            style={{
-              backgroundColor: "rgba(255, 255, 255, 0.85)",
-              borderRadius: "15px",
-            }}
-          >
-            <Form>
-              <Row className="mb-3">
-                <Col className="position-relative">
-                  <Form.Group controlId="cityInput">
-                    <Form.Control
-                      type="text"
-                      value={city}
-                      onChange={(e) => setCity(e.target.value)}
-                      placeholder="City"
-                      className="rounded-pill"
-                    />
-                    {city && (
-                      <Button
-                        variant="link"
-                        size="sm"
-                        onClick={() => setCity("")}
-                        style={{
-                          position: "absolute",
-                          top: "50%",
-                          right: "15px",
-                          transform: "translateY(-50%)",
-                          color: "#aaa",
-                          textDecoration: "none",
-                          fontSize: "1.2rem",
-                        }}
-                      >
-                        ✕
-                      </Button>
-                    )}
-                  </Form.Group>
-                </Col>
-                <Col className="position-relative">
-                  <Form.Group controlId="localityInput">
-                    <Form.Control
-                      type="text"
-                      value={locality}
-                      onChange={(e) => setLocality(e.target.value)}
-                      placeholder="Locality"
-                      className="rounded-pill"
-                    />
-                    {locality && (
-                      <Button
-                        variant="link"
-                        size="sm"
-                        onClick={() => setLocality("")}
-                        style={{
-                          position: "absolute",
-                          top: "50%",
-                          right: "15px",
-                          transform: "translateY(-50%)",
-                          color: "#aaa",
-                          textDecoration: "none",
-                          fontSize: "1.2rem",
-                        }}
-                      >
-                        ✕
-                      </Button>
-                    )}
-                  </Form.Group>
-                </Col>
-                <Col xs="auto" className="d-flex align-items-center">
-                  <Button
-                    variant="success"
-                    className="rounded-pill px-4"
-                    onClick={() => {}}
-                  >
-                    {isSearching ? (
-                      <Spinner animation="border" size="sm" />
-                    ) : (
-                      "Search"
-                    )}
-                  </Button>
-                </Col>
-              </Row>
-            </Form>
-          </Card>
-        </Col>
-      </Row> */}
 
       <Row
         className="w-100 justify-content-center mb-5 spac"
@@ -13755,7 +13664,11 @@ const TizardinAiPostalCodeFinder = () => {
                       fontSize: "1.2rem",
                     }}
                   >
-                    <FontAwesomeIcon icon={faSearch} />
+                    {isSearching ? (
+                      <FontAwesomeIcon icon={faSearch} spin />
+                    ) : (
+                      <FontAwesomeIcon icon={faSearch} />
+                    )}
                   </Button>
                 </Col>
               </Row>

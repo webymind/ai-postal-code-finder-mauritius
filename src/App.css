@@ -1,8 +1,16 @@
+
+html, body {
+    overflow-x: hidden!important; /* Prevent horizontal scrolling */
+    width: 100%; /* Ensure the body width does not exceed viewport */
+    margin: 0;
+    padding: 0;
+}
+
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center
 }
 
 .logo {
@@ -72,33 +80,57 @@ body {
     backdrop-filter: blur(7.3px);
     -webkit-backdrop-filter: blur(7.3px);
     border: 1px solid rgba(255, 255, 255, 0.3);
+     overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 
 
 
 /* General Desktop and Tablet Styles */
-#mob .card {
+/* #mob .card {
   background-color: rgba(255, 255, 255, 0.85);
   border-radius: 15px;
   padding: 1.5rem;
-  max-width: 700px; /* Only affect desktop size */
-  width: 150%;
+  max-width: 700px; 
   display: flex;
   justify-self: center;
+} */
+
+/* #mob .card {
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 15px;
+    padding: 1.5rem;
+    max-width: fit-content; 
+    display: flex;
+    justify-self: center;
+} */
+
+#mob .card {
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 15px;
+    padding: 1.5rem;
+    width: 100%; /* Ensure card width fits within container */
+    max-width: 95%; /* Constrain max width to avoid overflow */
+    margin: 0 auto; /* Center the card */
 }
 
-#mob .form-control {
+
+/* #mob .form-control {
   width: 100%;
   font-size: 1rem;
+} */
+
+#mob .form-control {
+    font-size: 1rem;
+    margin-bottom: 10px;
 }
 
 /* Mobile-specific styles */
 @media only screen and (max-width: 767px) {
   #mob .card {
-    max-width: 340px;
-    padding: 20px;
-    border-radius: 15px;
+       max-width: 90%; /* Constrain max width on mobile */
+        padding: 20px;
+        margin: 0 auto; /* Ensure it’s centered */
   }
 
   #mob .form-control {
@@ -125,13 +157,27 @@ body {
     display: flex;
     justify-self: center!important;
     width: fit-content;
+    
   }
 
   .hoe{
     /* width: fit-content; */
-    width: fit-content;
+    /* width: fit-content; */
+    width: 115%!important;
     display: flex;
     justify-self: center!important;
+
+  }
+
+  .bg{
+
+    background-image: url('/img/tizardin.mu-ai-postal-1.png');
+    background-color: "rgba(0, 0, 0, 0.6)";
+    backdrop-filter: "blur(10px)" ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
 
   }
 
@@ -185,6 +231,11 @@ body {
     .display-4{
       font-size: 2.5em!important;
     }
+
+      .close{
+    top: 37%!important;
+    font-size: 0.9rem!important;
+  }
 }
 
 @media (min-width: 768px) {
@@ -215,7 +266,7 @@ body {
         display: flex;
         justify-self: center !important;
         width: fit-content;
-        width: 110%;
+        width: 150%;
     }
 }
 

@@ -7,10 +7,12 @@ const Footer = () => (
       backgroundColor: "rgba(255, 255, 255, 0.85)", // Translucent white background
       backdropFilter: "blur(5px)", // Blur effect for consistency
       borderRadius: "10px", // Rounded corners for card-like appearance
-      width: "fit-content", // Make width compact
-      margin: "0 auto", // Center align horizontally
+      // width: "fit-content", // Make width compact
+      // margin: "0 auto", // Center align horizontally
       padding: "10px 20px", // Add padding for better spacing
       color: "#000", // Dark text color for readability
+      display: "flex",
+      justifyContent: "center",
     }}
   >
     &copy; 2024{" "}
