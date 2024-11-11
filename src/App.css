@@ -273,6 +273,14 @@ body {
         width: 139%!important;
         margin-left: -35px!important;
     }
+
+        .card-body {
+          flex: 1 1 auto;
+          padding: 10px;
+          /* padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+          color: var(--bs-card-color); */
+      }
+
 }
 
 /* .P-4 {
