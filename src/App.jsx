@@ -13549,7 +13549,7 @@ const TizardinAiPostalCodeFinder = () => {
       <div
         className="position-absolute top-0 start-0 w-100 h-100 bg"
         style={{
-          backgroundImage: "url('/img/tizardin.mu-ai-postal-1.png')",
+          backgroundImage: "url('/img/tizardin.mu-ai-postal-1.webp')",
           backgroundColor: "rgba(0, 0, 0, 0.6)",
           backdropFilter: "blur(10px)",
           backgroundSize: "cover",
