@@ -168,6 +168,8 @@ body {
     width: 115%!important;
     display: flex;
     justify-self: center!important;
+    margin-left: -17px;
+
 
   }
 
