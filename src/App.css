@@ -268,7 +268,7 @@ body {
         display: flex;
         justify-self: center !important;
         width: fit-content;
-        /* width: 150%; */
+        width: 100%!important;
     }
 }
 
