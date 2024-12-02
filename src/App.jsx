@@ -1339,7 +1339,7 @@ const TizardinAiPostalCodeFinder = () => {
     { city: "Plaine des Papayes", locality: "Cite NHDC", postalCode: "21204" },
     {
       city: "Plaine des Papayes",
-      locality: " Beau Plan",
+      locality: "Beau Plan",
       postalCode: "21205",
     },
     {
@@ -9188,7 +9188,7 @@ const TizardinAiPostalCodeFinder = () => {
       locality: "Rose Hill Centre 1 - Ernest",
       postalCode: "71360",
     },
-    { city: "Rose Hill", locality: " Gaya", postalCode: "71225" },
+    { city: "Rose Hill", locality: "Gaya", postalCode: "71225" },
     {
       city: "Rose Hill",
       locality: "NHDC C Le Vieux - Geranium",
@@ -10181,7 +10181,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Forest Side",
-      locality: " Carbonel - Swift lane",
+      locality: "Carbonel - Swift lane",
       postalCode: "74427",
     },
     {
