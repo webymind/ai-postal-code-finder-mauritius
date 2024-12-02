@@ -13535,7 +13535,7 @@ const TizardinAiPostalCodeFinder = () => {
   // Fuse.js options for fuzzy matching
   const fuse = new Fuse(locations, {
     keys: ["city", "locality"],
-    threshold: 0.1, // Adjust for leniency in matching
+    threshold: 0.3, // Adjust for leniency in matching
     includeScore: true,
   });
 
