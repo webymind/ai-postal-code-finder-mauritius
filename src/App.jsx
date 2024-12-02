@@ -15,6 +15,7 @@ import Footer from "./Footer";
 import "./App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import Fuse from "fuse.js";
 
 const TizardinAiPostalCodeFinder = () => {
   const locations = [
@@ -13478,10 +13479,80 @@ const TizardinAiPostalCodeFinder = () => {
     { city: "L'Escalier", locality: "Savannah S.E", postalCode: "61417" },
   ];
 
+  // const [city, setCity] = useState("");
+  // const [locality, setLocality] = useState("");
+  // const [suggestions, setSuggestions] = useState([]);
+  // const [isSearching, setIsSearching] = useState(false);
+
+  // const debounce = (func, delay) => {
+  //   let timeoutId;
+  //   return (...args) => {
+  //     clearTimeout(timeoutId);
+  //     timeoutId = setTimeout(() => func(...args), delay);
+  //   };
+  // };
+
+  // useEffect(() => {
+  //   const handleFilter = () => {
+  //     if (city || locality) {
+  //       const minLength = 3;
+  //       const filteredSuggestions = locations.filter((location) => {
+  //         const cityMatch =
+  //           city.length >= minLength
+  //             ? location.city.toLowerCase().includes(city.toLowerCase())
+  //             : false;
+  //         const localityMatch =
+  //           locality.length >= minLength
+  //             ? location.locality.toLowerCase().includes(locality.toLowerCase())
+  //             : false;
+
+  //         if (city && locality) {
+  //           return (
+  //             location.city.toLowerCase() === city.toLowerCase() &&
+  //             location.locality.toLowerCase() === locality.toLowerCase()
+  //           );
+  //         }
+
+  //         if (city) {
+  //           return cityMatch;
+  //         }
+
+  //         if (locality) {
+  //           return localityMatch;
+  //         }
+
+  //         return false;
+  //       });
+
+  //       setSuggestions(filteredSuggestions.slice(0, 3));
+  //     } else {
+  //       setSuggestions([]);
+  //     }
+  //   };
+
+  //   const debouncedFilter = debounce(handleFilter, 300);
+  //   debouncedFilter();
+  // }, [city, locality]);
+
+  // useEffect(() => {
+  //   if (city || locality) {
+  //     setIsSearching(true);
+  //     const timeout = setTimeout(() => setIsSearching(false), 1000);
+  //     return () => clearTimeout(timeout);
+  //   }
+  // }, [city, locality]);
+
   const [city, setCity] = useState("");
   const [locality, setLocality] = useState("");
   const [suggestions, setSuggestions] = useState([]);
   const [isSearching, setIsSearching] = useState(false);
+
+  // Fuse.js options for fuzzy matching
+  const fuse = new Fuse(locations, {
+    keys: ["city", "locality"],
+    threshold: 0.4, // Adjust for leniency in matching
+    includeScore: true,
+  });
 
   const debounce = (func, delay) => {
     let timeoutId;
@@ -13494,36 +13565,12 @@ const TizardinAiPostalCodeFinder = () => {
   useEffect(() => {
     const handleFilter = () => {
       if (city || locality) {
-        const minLength = 3;
-        const filteredSuggestions = locations.filter((location) => {
-          const cityMatch =
-            city.length >= minLength
-              ? location.city.toLowerCase().includes(city.toLowerCase())
-              : false;
-          const localityMatch =
-            locality.length >= minLength
-              ? location.locality.toLowerCase().includes(locality.toLowerCase())
-              : false;
-
-          if (city && locality) {
-            return (
-              location.city.toLowerCase() === city.toLowerCase() &&
-              location.locality.toLowerCase() === locality.toLowerCase()
-            );
-          }
-
-          if (city) {
-            return cityMatch;
-          }
-
-          if (locality) {
-            return localityMatch;
-          }
-
-          return false;
-        });
-
-        setSuggestions(filteredSuggestions.slice(0, 3));
+        const query = [city, locality].filter(Boolean).join(" ");
+        const results = fuse.search(query);
+        const filteredSuggestions = results
+          .map((result) => result.item)
+          .slice(0, 3);
+        setSuggestions(filteredSuggestions);
       } else {
         setSuggestions([]);
       }
@@ -13596,6 +13643,7 @@ const TizardinAiPostalCodeFinder = () => {
                       placeholder="City"
                       className="rounded-pill"
                       style={{ paddingRight: "30px" }}
+                      aria-label="City input"
                     />
                     {city && (
                       <Button
