@@ -173,6 +173,13 @@ body {
 
   }
 
+  .effec{
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 15px;
+    width: 100%;
+    max-width: 700px;
+  }
+
   .bg{
 
     background-image: url('/img/tizardin.mu-ai-postal-1.webp');

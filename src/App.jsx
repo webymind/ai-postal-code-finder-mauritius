@@ -13601,7 +13601,7 @@ const TizardinAiPostalCodeFinder = () => {
           </h1>
 
           <p>
-            <strong className="card">
+            <strong className="effec">
               Avoid using "MORC", Morcellement, "Ave" or Avenue"
             </strong>{" "}
           </p>
