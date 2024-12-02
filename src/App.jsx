@@ -203,7 +203,7 @@ const TizardinAiPostalCodeFinder = () => {
     { city: "Benares", locality: "COLMAR", postalCode: "61102" },
     { city: "Bambous", locality: "PAILLOTTE (East)", postalCode: "73452" },
     { city: "Bambous", locality: "CITE ST LUC", postalCode: "74410" },
-    { city: "Bambous", locality: "Morcellement Rey", postalCode: "11121" },
+    { city: "Bambous", locality: "Rey", postalCode: "11121" },
     { city: "Bambous", locality: "Mangues Vert Doux", postalCode: "90106" },
     { city: "Bambous", locality: "Mon Repos", postalCode: "90107" },
     { city: "Bambous", locality: "Morc Eaux Bonnes", postalCode: "90108" },
@@ -271,15 +271,15 @@ const TizardinAiPostalCodeFinder = () => {
     { city: "Bel Air", locality: "Cemetery", postalCode: "52302" },
     { city: "Bel Air", locality: "Petit Bel Air", postalCode: "52303" },
     { city: "Bel Air", locality: "Grand Bel Air", postalCode: "50301" },
-    { city: "Bel Air", locality: "Morcellement Central", postalCode: "40107" },
+    { city: "Bel Air", locality: "Central", postalCode: "40107" },
     {
       city: "Bel Air",
-      locality: "Morcellement La Cheminee",
+      locality: "La Cheminee",
       postalCode: "40108",
     },
     {
       city: "Bel Air",
-      locality: "Morcellement Pont Lardier",
+      locality: "Pont Lardier",
       postalCode: "40109",
     },
     { city: "Bel Air", locality: "Petit Bois", postalCode: "40110" },
@@ -310,7 +310,7 @@ const TizardinAiPostalCodeFinder = () => {
     { city: "Camp de Masque", locality: "Bel Etang", postalCode: "41201" },
     { city: "Camp de Masque", locality: "Medine", postalCode: "41202" },
     { city: "Camp de Masque", locality: "Mont Ida", postalCode: "41203" },
-    { city: "Camp de Masque", locality: "Mare Goyaves", postalCode: "40402" },
+    { city: "Camp de Masque", locality: "Mare Goys", postalCode: "40402" },
     { city: "Camp de Masque", locality: "Petite Cabane", postalCode: "40403" },
     { city: "Camp de Masque", locality: "Balance John", postalCode: "40301" },
     { city: "Camp de Masque", locality: "Camp De Masque", postalCode: "40302" },
@@ -318,7 +318,7 @@ const TizardinAiPostalCodeFinder = () => {
     { city: "Camp de Masque", locality: "L' Unite", postalCode: "40304" },
     {
       city: "Camp de Masque",
-      locality: "Camp De Masque Pave",
+      locality: "Camp De Masque P",
       postalCode: "40401",
     },
     { city: "Cap Malheureux", locality: "Anse La Raie", postalCode: "31701" },
@@ -362,12 +362,12 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Cap Malheureux",
-      locality: "Morc Agnis Ph 2",
+      locality: "Agnis Ph 2",
       postalCode: "31713",
     },
-    { city: "Cap Malheureux", locality: "Morc Chetty 1", postalCode: "31714" },
-    { city: "Cap Malheureux", locality: "Morc Chetty 2", postalCode: "31715" },
-    { city: "Cap Malheureux", locality: "Morc Chetty 3", postalCode: "31716" },
+    { city: "Cap Malheureux", locality: "Chetty 1", postalCode: "31714" },
+    { city: "Cap Malheureux", locality: "Chetty 2", postalCode: "31715" },
+    { city: "Cap Malheureux", locality: "Chetty 3", postalCode: "31716" },
     { city: "Chemin Grenier", locality: "New Mosque", postalCode: "60417" },
     { city: "Chemin Grenier", locality: "Adventist RD", postalCode: "60401" },
     {
@@ -387,7 +387,7 @@ const TizardinAiPostalCodeFinder = () => {
     { city: "Chemin Grenier", locality: "Satanah", postalCode: "60423" },
     { city: "Case Noyale", locality: "Cite CHA", postalCode: "90303" },
     { city: "Case Noyale", locality: "Ilot Fortier", postalCode: "90304" },
-    { city: "Case Noyale", locality: "Morc Multipliants", postalCode: "90305" },
+    { city: "Case Noyale", locality: "Multipliants", postalCode: "90305" },
     {
       city: "Case Noyale",
       locality: "Petite Riviere Noire",
@@ -497,13 +497,13 @@ const TizardinAiPostalCodeFinder = () => {
     { city: "Congomah", locality: "Congomah", postalCode: "20301" },
     { city: "Congomah", locality: "Cite E.D.C", postalCode: "20302" },
     { city: "Congomah", locality: "Royal Rd", postalCode: "20303" },
-    { city: "Cascavelle", locality: "Beau Songes", postalCode: "90201" },
-    { city: "Cascavelle", locality: "Camp Creoles", postalCode: "90202" },
-    { city: "Cascavelle", locality: "Cascavelle", postalCode: "90203" },
-    { city: "Cascavelle", locality: "Xavier", postalCode: "90204" },
+    { city: "Casclle", locality: "Beau Songes", postalCode: "90201" },
+    { city: "Casclle", locality: "Camp Creoles", postalCode: "90202" },
+    { city: "Casclle", locality: "Casclle", postalCode: "90203" },
+    { city: "Casclle", locality: "Xavier", postalCode: "90204" },
     { city: "Camp Ithier", locality: "Camp Ithier", postalCode: "40501" },
     { city: "Camp Ithier", locality: "Isidore Rose", postalCode: "40502" },
-    { city: "Camp Ithier", locality: "Isidore Rose Pave", postalCode: "40503" },
+    { city: "Camp Ithier", locality: "Isidore Rose P", postalCode: "40503" },
     { city: "Clemencia", locality: "Belle Rose", postalCode: "40701" },
     { city: "Clemencia", locality: "Clemencia", postalCode: "40702" },
     { city: "Curepipe", locality: "Flat St. Antoine", postalCode: "74311" },
@@ -676,12 +676,12 @@ const TizardinAiPostalCodeFinder = () => {
     { city: "16eme Mille", locality: "Morc Sookary", postalCode: "52606" },
     {
       city: "16eme Mille",
-      locality: "Morcellement RAMPHUL 1",
+      locality: "RAMPHUL 1",
       postalCode: "52607",
     },
     {
       city: "16eme Mille",
-      locality: "Morcellement RAMPHUL 2",
+      locality: "RAMPHUL 2",
       postalCode: "52608",
     },
     { city: "16eme Mille", locality: "Seizieme Mile", postalCode: "52609" },
@@ -929,7 +929,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Terre Rouge",
-      locality: "Avenue Bleuets 2, Morc Raffray",
+      locality: " Bleuets 2, Morc Raffray",
       postalCode: "21812",
     },
     {
@@ -952,45 +952,45 @@ const TizardinAiPostalCodeFinder = () => {
     { city: "Le Morne", locality: "Dilo Pourie", postalCode: "91201" },
     { city: "Le Morne", locality: "Le Morne Brabant", postalCode: "91202" },
     {
-      city: "Laventure",
-      locality: "MONT ROCHES H.laventure",
+      city: "Lnture",
+      locality: "MONT ROCHES H.lnture",
       postalCode: "71405",
     },
     {
-      city: "Laventure",
-      locality: "Laventure Long Mountain",
+      city: "Lnture",
+      locality: "Lnture Long Mountain",
       postalCode: "41001",
     },
-    { city: "Laventure", locality: "E.D.C. B", postalCode: "20808" },
-    { city: "Laventure", locality: "Les Mariannes", postalCode: "20809" },
-    { city: "Laventure", locality: "L'Industrie", postalCode: "20810" },
-    { city: "Laventure", locality: "Morc. Baillache", postalCode: "20811" },
-    { city: "Laventure", locality: "Morc. Nouvelle", postalCode: "20812" },
+    { city: "Lnture", locality: "E.D.C. B", postalCode: "20808" },
+    { city: "Lnture", locality: "Les Mariannes", postalCode: "20809" },
+    { city: "Lnture", locality: "L'Industrie", postalCode: "20810" },
+    { city: "Lnture", locality: "Morc. Baillache", postalCode: "20811" },
+    { city: "Lnture", locality: "Morc. Nouvelle", postalCode: "20812" },
     {
-      city: "Laventure",
+      city: "Lnture",
       locality: "Robinson (Left Side)",
       postalCode: "20813",
     },
-    { city: "Laventure", locality: "Valton", postalCode: "20814" },
-    { city: "Laventure", locality: "Baillache", postalCode: "20801" },
-    { city: "Laventure", locality: "Boulingrin", postalCode: "20802" },
+    { city: "Lnture", locality: "Valton", postalCode: "20814" },
+    { city: "Lnture", locality: "Baillache", postalCode: "20801" },
+    { city: "Lnture", locality: "Boulingrin", postalCode: "20802" },
     {
-      city: "Laventure",
+      city: "Lnture",
       locality: "Camp la Boue/ Vallee du Paradis",
       postalCode: "20803",
     },
-    { city: "Laventure", locality: "C.H.A", postalCode: "20804" },
-    { city: "Laventure", locality: "Cite Social Welfare", postalCode: "20805" },
-    { city: "Laventure", locality: "Descoins", postalCode: "20806" },
+    { city: "Lnture", locality: "C.H.A", postalCode: "20804" },
+    { city: "Lnture", locality: "Cite Social Welfare", postalCode: "20805" },
+    { city: "Lnture", locality: "Descoins", postalCode: "20806" },
     {
-      city: "Laventure",
+      city: "Lnture",
       locality: "E.D.C. A La laura / malenga",
       postalCode: "20807",
     },
-    { city: "Laventure", locality: "Malinga", postalCode: "80503" },
-    { city: "Laventure", locality: "La Laura", postalCode: "80501" },
+    { city: "Lnture", locality: "Malinga", postalCode: "80503" },
+    { city: "Lnture", locality: "La Laura", postalCode: "80501" },
     {
-      city: "Laventure",
+      city: "Lnture",
       locality: "LA LAURA/Riv Baptiste",
       postalCode: "80502",
     },
@@ -1702,7 +1702,7 @@ const TizardinAiPostalCodeFinder = () => {
     { city: "Pointe aux Sables", locality: "Cite Lateka", postalCode: "11105" },
     {
       city: "Pointe aux Sables",
-      locality: "Morcellement Rey",
+      locality: "Rey",
       postalCode: "11121",
     },
     {
@@ -1712,13 +1712,13 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Pointe aux Sables",
-      locality: "Morcellement Ghurburrun",
+      locality: "Ghurburrun",
       postalCode: "11122",
     },
     { city: "Pointe aux Sables", locality: "Kensington", postalCode: "11107" },
     {
       city: "Pointe aux Sables",
-      locality: "Morcellement S.L.D.C",
+      locality: "S.L.D.C",
       postalCode: "11123",
     },
     {
@@ -1728,7 +1728,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Pointe aux Sables",
-      locality: "Morcellement Sohun",
+      locality: "Sohun",
       postalCode: "11124",
     },
     {
@@ -1738,7 +1738,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Pointe aux Sables",
-      locality: "Morcellement Soobra Phase 1 & Phase 2",
+      locality: "Soobra Phase 1 & Phase 2",
       postalCode: "11125",
     },
     {
@@ -1748,32 +1748,32 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Pointe aux Sables",
-      locality: "Morcellement Verger Mangue",
+      locality: "Verger Mangue",
       postalCode: "11126",
     },
     {
       city: "Pointe aux Sables",
-      locality: "Morcellement D'Hotman",
+      locality: "D'Hotman",
       postalCode: "11111",
     },
     {
       city: "Pointe aux Sables",
-      locality: "Morcellement Verger Le Bain",
+      locality: "Verger Le Bain",
       postalCode: "11127",
     },
     {
       city: "Pointe aux Sables",
-      locality: "Morcellement Fon Sing",
+      locality: "Fon Sing",
       postalCode: "11112",
     },
     {
       city: "Pointe aux Sables",
-      locality: "Morcellement Verger Sur Mer",
+      locality: "Verger Sur Mer",
       postalCode: "11128",
     },
     {
       city: "Pointe aux Sables",
-      locality: "Morcellement Fortune",
+      locality: "Fortune",
       postalCode: "11113",
     },
     {
@@ -1783,13 +1783,13 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Pointe aux Sables",
-      locality: "Morcellement Ghurburrun Ph 1 Brunes Pailles Phase 2",
+      locality: "Ghurburrun Ph 1 Brunes Pailles Phase 2",
       postalCode: "11114",
     },
     { city: "Pointe aux Sables", locality: "Police Flat", postalCode: "11130" },
     {
       city: "Pointe aux Sables",
-      locality: "Morcellement Ibrahim Dawood",
+      locality: "Ibrahim Dawood",
       postalCode: "11115",
     },
     {
@@ -1799,7 +1799,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Pointe aux Sables",
-      locality: "Morcellement Ilois Phase 1 & Phase 2",
+      locality: "Ilois Phase 1 & Phase 2",
       postalCode: "11116",
     },
     {
@@ -1814,7 +1814,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Pointe aux Sables",
-      locality: "Morcellement Koenig/sur mer",
+      locality: "Koenig/sur mer",
       postalCode: "11117",
     },
     { city: "Pointe aux Sables", locality: "Terrasson 1", postalCode: "11133" },
@@ -1825,7 +1825,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Pointe aux Sables",
-      locality: "Morcellement Le Printemps",
+      locality: "Le Printemps",
       postalCode: "11118",
     },
     { city: "Pointe aux Sables", locality: "U.T.M", postalCode: "11134" },
@@ -1836,7 +1836,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Pointe aux Sables",
-      locality: "Morcellement Le Vieux",
+      locality: "Le Vieux",
       postalCode: "11119",
     },
     {
@@ -1851,7 +1851,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Pointe aux Sables",
-      locality: "Morcellement Nazroo Phase 1 & Phase 2",
+      locality: "Nazroo Phase 1 & Phase 2",
       postalCode: "11120",
     },
     { city: "Quartier Militaire", locality: "Betuel", postalCode: "81101" },
@@ -2024,7 +2024,7 @@ const TizardinAiPostalCodeFinder = () => {
       locality: "Riviere des Creoles",
       postalCode: "51606",
     },
-    { city: "Riviere du Rempart", locality: "Pave", postalCode: "31109" },
+    { city: "Riviere du Rempart", locality: "P", postalCode: "31109" },
     {
       city: "Riviere du Rempart",
       locality: "Plaines des Roches Aubin",
@@ -2241,7 +2241,7 @@ const TizardinAiPostalCodeFinder = () => {
     { city: "Sebastopol", locality: "Citadelle Region", postalCode: "11405" },
     { city: "Sebastopol", locality: "Cent Gaulettes", postalCode: "42101" },
     { city: "Sebastopol", locality: "Cite Sebastopol", postalCode: "42102" },
-    { city: "Sebastopol", locality: "Clavet", postalCode: "42103" },
+    { city: "Sebastopol", locality: "Clt", postalCode: "42103" },
     { city: "Sebastopol", locality: "Etoile", postalCode: "42104" },
     { city: "Sebastopol", locality: "Lesur", postalCode: "42105" },
     { city: "Sebastopol", locality: "Pellegrin", postalCode: "42106" },
@@ -2579,7 +2579,7 @@ const TizardinAiPostalCodeFinder = () => {
     {
       city: "Terre Rouge",
       locality:
-        "St Croix 2 - Avenue Pere Laval from Terre Rouge Road to Canal Bathurst",
+        "St Croix 2 -  Pere Laval from Terre Rouge Road to Canal Bathurst",
       postalCode: "11705",
     },
     {
@@ -2757,7 +2757,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Vacoas / Floreal",
-      locality: "La Caverne No.2",
+      locality: "La Crne No.2",
       postalCode: "73325",
     },
     {
@@ -2767,7 +2767,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Vacoas / Floreal",
-      locality: "Cite La Caverne",
+      locality: "Cite La Crne",
       postalCode: "73310",
     },
     { city: "Vacoas / Floreal", locality: "La Marie", postalCode: "73126" },
@@ -2836,7 +2836,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Vacoas / Floreal",
-      locality: "La Caverne No.1",
+      locality: "La Crne No.1",
       postalCode: "73324",
     },
     { city: "Agalega", locality: "Village Vingt-Cinq", postalCode: "A1103" },
@@ -2977,7 +2977,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Almadina - Zaynah",
+      locality: "Almadina - Zaynah",
       postalCode: "11809",
     },
     {
@@ -2997,7 +2997,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Ameermeeah",
+      locality: "Ameermeeah",
       postalCode: "11810",
     },
     {
@@ -3022,7 +3022,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Mohamedally",
+      locality: "Mohamedally",
       postalCode: "11811",
     },
     {
@@ -3042,12 +3042,12 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Agnis / Ramlagun (Lower V.D Pretes)",
+      locality: "Agnis / Ramlagun (Lower V.D Pretes)",
       postalCode: "11807",
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Pitchen",
+      locality: "Pitchen",
       postalCode: "11812",
     },
     {
@@ -3067,7 +3067,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Ally / Sekdaur (Lower V.D Pretes)",
+      locality: "Ally / Sekdaur (Lower V.D Pretes)",
       postalCode: "11808",
     },
     { city: "Port Louis", locality: "NHDC Cite La Cure", postalCode: "11813" },
@@ -3088,7 +3088,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Almadina - Al Madina Ave",
+      locality: "Almadina - Al Madina ",
       postalCode: "11809",
     },
     { city: "Port Louis", locality: "NHDC (La Cure)", postalCode: "11814" },
@@ -3109,7 +3109,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Almadina - Autruches Street",
+      locality: "Almadina - Autruches Street",
       postalCode: "11809",
     },
     {
@@ -3134,7 +3134,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Almadina - Avenue des Dodos",
+      locality: "Almadina -  des Dodos",
       postalCode: "11809",
     },
     { city: "Port Louis", locality: "NHDC (Media)", postalCode: "11816" },
@@ -3155,7 +3155,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Almadina - Avenue des Rosiers",
+      locality: "Almadina -  des Rosiers",
       postalCode: "11809",
     },
     {
@@ -3180,7 +3180,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Almadina - Colombes Street",
+      locality: "Almadina - Colombes Street",
       postalCode: "11809",
     },
     {
@@ -3205,7 +3205,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Almadina - Faucon Street",
+      locality: "Almadina - Faucon Street",
       postalCode: "11809",
     },
     {
@@ -3231,7 +3231,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Almadina - Glaieuls Street",
+      locality: "Almadina - Glaieuls Street",
       postalCode: "11809",
     },
     {
@@ -3251,12 +3251,12 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Carreau Lalo - Rosiers Avenue",
+      locality: "Carreau Lalo - Rosiers ",
       postalCode: "11801",
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Almadina - Jasmin Ave",
+      locality: "Almadina - Jasmin ",
       postalCode: "11809",
     },
     {
@@ -3281,7 +3281,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Almadina - Laetita",
+      locality: "Almadina - Laetita",
       postalCode: "11809",
     },
     {
@@ -3302,7 +3302,7 @@ const TizardinAiPostalCodeFinder = () => {
     { city: "Port Louis", locality: "Cite CHA", postalCode: "11802" },
     {
       city: "Port Louis",
-      locality: "Morcellement Almadina - Pelican Street",
+      locality: "Almadina - Pelican Street",
       postalCode: "11809",
     },
     {
@@ -3318,7 +3318,7 @@ const TizardinAiPostalCodeFinder = () => {
     { city: "Port Louis", locality: "Cite La Cure", postalCode: "11803" },
     {
       city: "Port Louis",
-      locality: "Morcellement Almadina - Solitaire Street",
+      locality: "Almadina - Solitaire Street",
       postalCode: "11809",
     },
     {
@@ -3339,7 +3339,7 @@ const TizardinAiPostalCodeFinder = () => {
     { city: "Port Louis", locality: "Cite CHA", postalCode: "11802" },
     {
       city: "Port Louis",
-      locality: "Morcellement Almadina - Pelican Street",
+      locality: "Almadina - Pelican Street",
       postalCode: "11809",
     },
     {
@@ -3355,7 +3355,7 @@ const TizardinAiPostalCodeFinder = () => {
     { city: "Port Louis", locality: "Cite La Cure", postalCode: "11803" },
     {
       city: "Port Louis",
-      locality: "Morcellement Almadina - Solitaire Street",
+      locality: "Almadina - Solitaire Street",
       postalCode: "11809",
     },
     {
@@ -3458,7 +3458,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "St Croix 2 - Avenue Pere Laval",
+      locality: "St Croix 2 -  Pere Laval",
       postalCode: "11705",
     },
     {
@@ -3980,7 +3980,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Briquetterie - Abercrombie Avenue",
+      locality: "Briquetterie - Abercrombie ",
       postalCode: "11701",
     },
     {
@@ -4794,7 +4794,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Vallee Pitot 3 - Tagore Ave",
+      locality: "Vallee Pitot 3 - Tagore ",
       postalCode: "11506",
     },
     {
@@ -5345,7 +5345,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Plaine Verte 2 - Ave Goomany Ally",
+      locality: "Plaine Verte 2 -  Goomany Ally",
       postalCode: "11503",
     },
     {
@@ -5412,7 +5412,7 @@ const TizardinAiPostalCodeFinder = () => {
     {
       city: "Port Louis",
       locality:
-        "St Georges - Edith Cavell Street from Ponce Stream to Mere Barthelemy Street",
+        "St Georges - Edith Cll Street from Ponce Stream to Mere Barthelemy Street",
       postalCode: "11324",
     },
     { city: "Port Louis", locality: "Supreme Court", postalCode: "11325" },
@@ -6104,7 +6104,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "La Butte Region - Gravel Street",
+      locality: "La Butte Region - Grl Street",
       postalCode: "11314",
     },
     {
@@ -6160,7 +6160,7 @@ const TizardinAiPostalCodeFinder = () => {
     {
       city: "Port Louis",
       locality:
-        "La Butte Region - Avenue Mgr Leen from Armory Bridge to Andrews Street",
+        "La Butte Region -  Mgr Leen from Armory Bridge to Andrews Street",
       postalCode: "11314",
     },
     {
@@ -6299,7 +6299,7 @@ const TizardinAiPostalCodeFinder = () => {
     {
       city: "Port Louis",
       locality:
-        "Barracks Region - Edith Cavell Street from Mere Barthelemy Street to John Kennedy Street",
+        "Barracks Region - Edith Cll Street from Mere Barthelemy Street to John Kennedy Street",
       postalCode: "11302",
     },
     {
@@ -6309,7 +6309,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Cassis 2 - Tamatave Street",
+      locality: "Cassis 2 - Tamat Street",
       postalCode: "11304",
     },
     {
@@ -6331,7 +6331,7 @@ const TizardinAiPostalCodeFinder = () => {
     {
       city: "Port Louis",
       locality:
-        "Barracks Region - John Kennedy Street from Jemmapes to Edith Cavell Street (Eastern Side)",
+        "Barracks Region - John Kennedy Street from Jemmapes to Edith Cll Street (Eastern Side)",
       postalCode: "11302",
     },
     {
@@ -6362,7 +6362,7 @@ const TizardinAiPostalCodeFinder = () => {
     {
       city: "Port Louis",
       locality:
-        "Barracks Region - John Kennedy Street from Ruisseau Pouce to Edith Cavell Street",
+        "Barracks Region - John Kennedy Street from Ruisseau Pouce to Edith Cll Street",
       postalCode: "11302",
     },
     {
@@ -6414,7 +6414,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Pailles East - Avenue Claude Delaitre",
+      locality: "Pailles East -  Claude Delaitre",
       postalCode: "11220",
     },
     { city: "Port Louis", locality: "Soreze", postalCode: "11225" },
@@ -6477,7 +6477,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Pailles East - Morcellement Mountain View",
+      locality: "Pailles East - Mountain View",
       postalCode: "11220",
     },
     {
@@ -6635,12 +6635,12 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Cassis 3 - Octave Sandapa Street",
+      locality: "Cassis 3 - Oct Sandapa Street",
       postalCode: "11305",
     },
     {
       city: "Port Louis",
-      locality: "Pailles West - St Vincent de Paul Avenue",
+      locality: "Pailles West - St Vincent de Paul ",
       postalCode: "11221",
     },
     {
@@ -6742,7 +6742,7 @@ const TizardinAiPostalCodeFinder = () => {
     {
       city: "Port Louis",
       locality:
-        "Barracks Region - Chaussée Street from Ruisseau Pouce to Edith Cavell Street",
+        "Barracks Region - Chaussée Street from Ruisseau Pouce to Edith Cll Street",
       postalCode: "11302",
     },
     {
@@ -6772,12 +6772,12 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morc Raffray - Avenue Cardinal 4",
+      locality: "Morc Raffray -  Cardinal 4",
       postalCode: "11215",
     },
     {
       city: "Port Louis",
-      locality: "Morc Raffray - Avenue Perroquet 1",
+      locality: "Morc Raffray -  Perroquet 1",
       postalCode: "11215",
     },
     {
@@ -6797,12 +6797,12 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morc Raffray - Avenue Cardinal 5",
+      locality: "Morc Raffray -  Cardinal 5",
       postalCode: "11215",
     },
     {
       city: "Port Louis",
-      locality: "Morc Raffray - Avenue Perroquet 2",
+      locality: "Morc Raffray -  Perroquet 2",
       postalCode: "11215",
     },
     {
@@ -6822,12 +6822,12 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morc Raffray - Avenue Claude De Delaitre",
+      locality: "Morc Raffray -  Claude De Delaitre",
       postalCode: "11215",
     },
     {
       city: "Port Louis",
-      locality: "Morc Raffray - Avenue Perroquet 3",
+      locality: "Morc Raffray -  Perroquet 3",
       postalCode: "11215",
     },
     {
@@ -6837,22 +6837,22 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morc Le Rock - Avenue Citronelle",
+      locality: "Morc Le Rock -  Citronelle",
       postalCode: "11214",
     },
     {
       city: "Port Louis",
-      locality: "Morc Le Rock - Pearl Avenue",
+      locality: "Morc Le Rock - Pearl ",
       postalCode: "11214",
     },
     {
       city: "Port Louis",
-      locality: "Morc Raffray - Avenue Colline No 1",
+      locality: "Morc Raffray -  Colline No 1",
       postalCode: "11215",
     },
     {
       city: "Port Louis",
-      locality: "Morc Raffray - Avenue Perroquet 4",
+      locality: "Morc Raffray -  Perroquet 4",
       postalCode: "11215",
     },
     {
@@ -6867,7 +6867,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morc Le Rock - Avenue Conseil",
+      locality: "Morc Le Rock -  Conseil",
       postalCode: "11214",
     },
     {
@@ -6877,12 +6877,12 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morc Raffray - Avenue Colline No 2",
+      locality: "Morc Raffray -  Colline No 2",
       postalCode: "11215",
     },
     {
       city: "Port Louis",
-      locality: "Morc Raffray - Avenue Perroquet 5",
+      locality: "Morc Raffray -  Perroquet 5",
       postalCode: "11215",
     },
     {
@@ -6893,32 +6893,32 @@ const TizardinAiPostalCodeFinder = () => {
     { city: "Port Louis", locality: "Informatic Park", postalCode: "11211" },
     {
       city: "Port Louis",
-      locality: "Morc Le Rock - Avenue Framboises",
+      locality: "Morc Le Rock -  Framboises",
       postalCode: "11214",
     },
     {
       city: "Port Louis",
-      locality: "Morc Le Rock - Roland Maurel Avenue",
+      locality: "Morc Le Rock - Roland Maurel ",
       postalCode: "11214",
     },
     {
       city: "Port Louis",
-      locality: "Morc Raffray - Avenue Conde 2",
+      locality: "Morc Raffray -  Conde 2",
       postalCode: "11215",
     },
     {
       city: "Port Louis",
-      locality: "Morc Raffray - Avenue Perruche 1",
+      locality: "Morc Raffray -  Perruche 1",
       postalCode: "11215",
     },
     {
       city: "Port Louis",
-      locality: "La Tour Koenig East - Excell Avenue (East)",
+      locality: "La Tour Koenig East - Excell  (East)",
       postalCode: "11212",
     },
     {
       city: "Port Louis",
-      locality: "Morc Le Rock - Avenue Sapin",
+      locality: "Morc Le Rock -  Sapin",
       postalCode: "11214",
     },
     {
@@ -6928,12 +6928,12 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morc Raffray - Avenue Conde 4",
+      locality: "Morc Raffray -  Conde 4",
       postalCode: "11215",
     },
     {
       city: "Port Louis",
-      locality: "Morc Raffray - Avenue Perruche 2",
+      locality: "Morc Raffray -  Perruche 2",
       postalCode: "11215",
     },
     {
@@ -6943,7 +6943,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morc Le Rock - Avenue Talipot",
+      locality: "Morc Le Rock -  Talipot",
       postalCode: "11214",
     },
     {
@@ -6953,12 +6953,12 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morc Raffray - Avenue Conde 5",
+      locality: "Morc Raffray -  Conde 5",
       postalCode: "11215",
     },
     {
       city: "Port Louis",
-      locality: "Morc Raffray - Avenue Perruche 3",
+      locality: "Morc Raffray -  Perruche 3",
       postalCode: "11215",
     },
     {
@@ -6973,22 +6973,22 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morc Le Rock - Silver Avenue",
+      locality: "Morc Le Rock - Silver ",
       postalCode: "11214",
     },
     {
       city: "Port Louis",
-      locality: "Morc Raffray - Avenue Conde 7",
+      locality: "Morc Raffray -  Conde 7",
       postalCode: "11215",
     },
     {
       city: "Port Louis",
-      locality: "Morc Raffray - Avenue Perruche 4",
+      locality: "Morc Raffray -  Perruche 4",
       postalCode: "11215",
     },
     {
       city: "Port Louis",
-      locality: "Guibies - Avenue Florimant",
+      locality: "Guibies -  Florimant",
       postalCode: "11213",
     },
     {
@@ -6998,17 +6998,17 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morc Raffray - Avenue Bengali 1",
+      locality: "Morc Raffray -  Bengali 1",
       postalCode: "11215",
     },
     {
       city: "Port Louis",
-      locality: "Morc Raffray - Avenue Crecerlle 2",
+      locality: "Morc Raffray -  Crecerlle 2",
       postalCode: "11215",
     },
     {
       city: "Port Louis",
-      locality: "Morc Raffray - Avenue Peruche 5",
+      locality: "Morc Raffray -  Peruche 5",
       postalCode: "11215",
     },
     {
@@ -7023,17 +7023,17 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morc Raffray - Avenue Bengali 2",
+      locality: "Morc Raffray -  Bengali 2",
       postalCode: "11215",
     },
     {
       city: "Port Louis",
-      locality: "Morc Raffray - Avenue Dodo 1",
+      locality: "Morc Raffray -  Dodo 1",
       postalCode: "11215",
     },
     {
       city: "Port Louis",
-      locality: "Morc Raffray - Avenue Peruche 6",
+      locality: "Morc Raffray -  Peruche 6",
       postalCode: "11215",
     },
     {
@@ -7043,22 +7043,22 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morc Le Rock - Diamond Avenue",
+      locality: "Morc Le Rock - Diamond ",
       postalCode: "11214",
     },
     {
       city: "Port Louis",
-      locality: "Morc Raffray - Avenue Bengali 3",
+      locality: "Morc Raffray -  Bengali 3",
       postalCode: "11215",
     },
     {
       city: "Port Louis",
-      locality: "Morc Raffray - Avenue Dodo 2",
+      locality: "Morc Raffray -  Dodo 2",
       postalCode: "11215",
     },
     {
       city: "Port Louis",
-      locality: "Morc Raffray - Avenue Pingouin No 1",
+      locality: "Morc Raffray -  Pingouin No 1",
       postalCode: "11215",
     },
     {
@@ -7068,22 +7068,22 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morc Le Rock - Emerald Avenue",
+      locality: "Morc Le Rock - Emerald ",
       postalCode: "11214",
     },
     {
       city: "Port Louis",
-      locality: "Morc Raffray - Avenue Bengali 4",
+      locality: "Morc Raffray -  Bengali 4",
       postalCode: "11215",
     },
     {
       city: "Port Louis",
-      locality: "Morc Raffray - Avenue Dodo 3",
+      locality: "Morc Raffray -  Dodo 3",
       postalCode: "11215",
     },
     {
       city: "Port Louis",
-      locality: "Morc Raffray - Avenue Pingouin No 2",
+      locality: "Morc Raffray -  Pingouin No 2",
       postalCode: "11215",
     },
     {
@@ -7093,17 +7093,17 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morc Le Rock - Gold Avenue",
+      locality: "Morc Le Rock - Gold ",
       postalCode: "11214",
     },
     {
       city: "Port Louis",
-      locality: "Morc Raffray - Avenue Cardinal 1",
+      locality: "Morc Raffray -  Cardinal 1",
       postalCode: "11215",
     },
     {
       city: "Port Louis",
-      locality: "Morc Raffray - Avenue Dodo 4",
+      locality: "Morc Raffray -  Dodo 4",
       postalCode: "11215",
     },
     {
@@ -7119,17 +7119,17 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morc Le Rock - Iqbal Avenue",
+      locality: "Morc Le Rock - Iqbal ",
       postalCode: "11214",
     },
     {
       city: "Port Louis",
-      locality: "Morc Raffray - Avenue Cardinal 2",
+      locality: "Morc Raffray -  Cardinal 2",
       postalCode: "11215",
     },
     {
       city: "Port Louis",
-      locality: "Morc Raffray - Avenue Perdrix 2",
+      locality: "Morc Raffray -  Perdrix 2",
       postalCode: "11215",
     },
     {
@@ -7144,17 +7144,17 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morc Le Rock - Jade Avenue",
+      locality: "Morc Le Rock - Jade ",
       postalCode: "11214",
     },
     {
       city: "Port Louis",
-      locality: "Morc Raffray - Avenue Cardinal 3",
+      locality: "Morc Raffray -  Cardinal 3",
       postalCode: "11215",
     },
     {
       city: "Port Louis",
-      locality: "Morc Raffray - Avenue Perdrix 3",
+      locality: "Morc Raffray -  Perdrix 3",
       postalCode: "11215",
     },
     {
@@ -7165,7 +7165,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Verger Mangue - Verger mangues St 1",
+      locality: "Verger Mangue - Verger mangues St 1",
       postalCode: "11126",
     },
     {
@@ -7196,7 +7196,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Verger Le Bain - Discovery",
+      locality: "Verger Le Bain - Discovery",
       postalCode: "11127",
     },
     {
@@ -7226,7 +7226,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Verger Le Bain - Columbia",
+      locality: "Verger Le Bain - Columbia",
       postalCode: "11127",
     },
     {
@@ -7256,7 +7256,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Verger Le Bain - Collins",
+      locality: "Verger Le Bain - Collins",
       postalCode: "11127",
     },
     {
@@ -7282,7 +7282,7 @@ const TizardinAiPostalCodeFinder = () => {
     { city: "Port Louis", locality: "GRNW - J.E Pitchen", postalCode: "11210" },
     {
       city: "Port Louis",
-      locality: "Morcellement Verger Le Bain - Comet",
+      locality: "Verger Le Bain - Comet",
       postalCode: "11127",
     },
     {
@@ -7308,12 +7308,12 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Rey - Novembriers",
+      locality: "Rey - Novembriers",
       postalCode: "11121",
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Verger Le Bain - Armstrong",
+      locality: "Verger Le Bain - Armstrong",
       postalCode: "11127",
     },
     {
@@ -7338,12 +7338,12 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Rey - Novembriers lane 1",
+      locality: "Rey - Novembriers lane 1",
       postalCode: "11121",
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Verger Le Bain - Ariane",
+      locality: "Verger Le Bain - Ariane",
       postalCode: "11127",
     },
     {
@@ -7369,12 +7369,12 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Rey - Novembriers lane 2",
+      locality: "Rey - Novembriers lane 2",
       postalCode: "11121",
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Verger Le Bain - Appollo",
+      locality: "Verger Le Bain - Appollo",
       postalCode: "11127",
     },
     { city: "Port Louis", locality: "UTM", postalCode: "11134" },
@@ -7392,12 +7392,12 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Rey - Sunhill",
+      locality: "Rey - Sunhill",
       postalCode: "11121",
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Verger Le Bain - Aldrin",
+      locality: "Verger Le Bain - Aldrin",
       postalCode: "11127",
     },
     { city: "Port Louis", locality: "Verger Mangue", postalCode: "11135" },
@@ -7418,7 +7418,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Rey - Tournesol",
+      locality: "Rey - Tournesol",
       postalCode: "11121",
     },
     {
@@ -7449,7 +7449,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Rey - Trochettias",
+      locality: "Rey - Trochettias",
       postalCode: "11121",
     },
     {
@@ -7479,7 +7479,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Sohun - Cyprus",
+      locality: "Sohun - Cyprus",
       postalCode: "11124",
     },
     {
@@ -7510,7 +7510,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Sohun - Pigeon",
+      locality: "Sohun - Pigeon",
       postalCode: "11124",
     },
     {
@@ -7541,7 +7541,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Sohun - Peacock",
+      locality: "Sohun - Peacock",
       postalCode: "11124",
     },
     {
@@ -7571,7 +7571,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Verger Mangue - Sohun Lane",
+      locality: "Verger Mangue - Sohun Lane",
       postalCode: "11126",
     },
     {
@@ -7601,7 +7601,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Verger Mangue - Verger mangues St",
+      locality: "Verger Mangue - Verger mangues St",
       postalCode: "11126",
     },
     {
@@ -7632,45 +7632,45 @@ const TizardinAiPostalCodeFinder = () => {
     { city: "Port Louis", locality: "Camp Firinga", postalCode: "11101" },
     {
       city: "Port Louis",
-      locality: "Morcellement Rey - Bambous",
+      locality: "Rey - Bambous",
       postalCode: "11121",
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Rey - Manguiers",
+      locality: "Rey - Manguiers",
       postalCode: "11121",
     },
     { city: "Port Louis", locality: "Cite Lateka", postalCode: "11105" },
     {
       city: "Port Louis",
-      locality: "Morcellement Rey - Bosquet",
+      locality: "Rey - Bosquet",
       postalCode: "11121",
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Rey - Marie Madeleine",
+      locality: "Rey - Marie Madeleine",
       postalCode: "11121",
     },
     { city: "Port Louis", locality: "Cite La Lumiere", postalCode: "11106" },
     {
       city: "Port Louis",
-      locality: "Morcellement Rey - Cactus",
+      locality: "Rey - Cactus",
       postalCode: "11121",
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Rey - Nectarine",
+      locality: "Rey - Nectarine",
       postalCode: "11121",
     },
     { city: "Port Louis", locality: "Kensington", postalCode: "11107" },
     {
       city: "Port Louis",
-      locality: "Morcellement Rey - Catelyas",
+      locality: "Rey - Catelyas",
       postalCode: "11121",
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Rey - Neptune",
+      locality: "Rey - Neptune",
       postalCode: "11121",
     },
     {
@@ -7680,126 +7680,126 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Rey - Cerisiers",
+      locality: "Rey - Cerisiers",
       postalCode: "11121",
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Rey - Noisettes",
+      locality: "Rey - Noisettes",
       postalCode: "11121",
     },
     { city: "Port Louis", locality: "Marguerite Phase 1", postalCode: "11110" },
     {
       city: "Port Louis",
-      locality: "Morcellement Rey - COLBERT",
+      locality: "Rey - COLBERT",
       postalCode: "11121",
     },
     {
       city: "Port Louis",
-      locality: "Morcellement D'Hotman",
+      locality: "D'Hotman",
       postalCode: "11111",
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Rey - Coqueluches",
+      locality: "Rey - Coqueluches",
       postalCode: "11121",
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Fon Sing",
+      locality: "Fon Sing",
       postalCode: "11112",
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Rey - Fuschias",
+      locality: "Rey - Fuschias",
       postalCode: "11121",
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Fortune",
+      locality: "Fortune",
       postalCode: "11113",
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Rey - Goldem Rd",
+      locality: "Rey - Goldem Rd",
       postalCode: "11121",
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Ibrahim Dawood - Manguiers Ave",
+      locality: "Ibrahim Dawood - Manguiers ",
       postalCode: "11115",
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Rey - Groseilles",
+      locality: "Rey - Groseilles",
       postalCode: "11121",
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Ibrahim Dawood - Badamiers Ave",
+      locality: "Ibrahim Dawood - Badamiers ",
       postalCode: "11115",
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Rey - Jacquiers",
+      locality: "Rey - Jacquiers",
       postalCode: "11121",
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Ibrahim Dawood - Jacquiers Ave",
+      locality: "Ibrahim Dawood - Jacquiers ",
       postalCode: "11115",
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Rey - Jamalacs",
+      locality: "Rey - Jamalacs",
       postalCode: "11121",
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Le Vieux",
+      locality: "Le Vieux",
       postalCode: "11119",
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Rey - Jupiter",
+      locality: "Rey - Jupiter",
       postalCode: "11121",
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Rey - Accacia",
+      locality: "Rey - Accacia",
       postalCode: "11121",
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Rey - Lantana",
+      locality: "Rey - Lantana",
       postalCode: "11121",
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Rey - Aloes",
+      locality: "Rey - Aloes",
       postalCode: "11121",
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Rey - Link Rd",
+      locality: "Rey - Link Rd",
       postalCode: "11121",
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Rey - Badamiers Ave",
+      locality: "Rey - Badamiers ",
       postalCode: "11121",
     },
     {
       city: "Port Louis",
-      locality: "Morcellement Rey - Mandarine",
+      locality: "Rey - Mandarine",
       postalCode: "11121",
     },
     { city: "Olivia", locality: "Louis Renaud", postalCode: "41408" },
-    { city: "Olivia", locality: "Morc Deep River", postalCode: "41409" },
-    { city: "Olivia", locality: "Morc Hamid", postalCode: "41410" },
-    { city: "Olivia", locality: "Morc Louis Renaud", postalCode: "41411" },
-    { city: "Olivia", locality: "Morc Trois Ilots", postalCode: "41412" },
-    { city: "Olivia", locality: "Morc VRS Kewal Nagar", postalCode: "41413" },
+    { city: "Olivia", locality: "Deep River", postalCode: "41409" },
+    { city: "Olivia", locality: "Hamid", postalCode: "41410" },
+    { city: "Olivia", locality: "Louis Renaud", postalCode: "41411" },
+    { city: "Olivia", locality: "Trois Ilots", postalCode: "41412" },
+    { city: "Olivia", locality: "VRS Kewal Nagar", postalCode: "41413" },
     { city: "Olivia", locality: "Olivia", postalCode: "41414" },
     { city: "Olivia", locality: "Plaines Bananes", postalCode: "41415" },
     { city: "Olivia", locality: "Rousset Rd (Olivia)", postalCode: "41416" },
@@ -7845,7 +7845,7 @@ const TizardinAiPostalCodeFinder = () => {
     {
       city: "Rose Hill",
       locality:
-        "Tefles Housing Estate - Jinnah Ave (West) from C.D Garde to G. Rozemont",
+        "Tefles Housing Estate - Jinnah  (West) from C.D Garde to G. Rozemont",
       postalCode: "71176",
     },
     {
@@ -7937,7 +7937,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Rose Hill",
-      locality: "Trefles 3 - Cactus Ave",
+      locality: "Trefles 3 - Cactus ",
       postalCode: "71175",
     },
     {
@@ -7947,7 +7947,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Rose Hill",
-      locality: "Trefles 3 - Orchides Ave",
+      locality: "Trefles 3 - Orchides ",
       postalCode: "71175",
     },
     {
@@ -8029,7 +8029,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Rose Hill",
-      locality: "Trefles 2 - Sawmy Ave from M. Gandhi Ave to Jinnah Ave",
+      locality: "Trefles 2 - Sawmy  from M. Gandhi  to Jinnah ",
       postalCode: "71174",
     },
     {
@@ -8049,7 +8049,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Rose Hill",
-      locality: "Stanley 2 - Goyaviers Ave",
+      locality: "Stanley 2 - Goyaviers ",
       postalCode: "71171",
     },
     {
@@ -8109,22 +8109,22 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Rose Hill",
-      locality: "Stanley 2 - Gajadhur Ave",
+      locality: "Stanley 2 - Gajadhur",
       postalCode: "71171",
     },
     {
       city: "Rose Hill",
-      locality: "Trefles 1 - Dr Ferriere Avenue",
+      locality: "Trefles 1 - Dr Ferriere ",
       postalCode: "71173",
     },
     {
       city: "Rose Hill",
-      locality: "Trefles 2 - Bougainvilles Ave",
+      locality: "Trefles 2 - Bougainvilles ",
       postalCode: "71174",
     },
     {
       city: "Rose Hill",
-      locality: "Trefles 2 - Mahatma Gandhi Ave",
+      locality: "Trefles 2 - Mahatma Gandhi ",
       postalCode: "71174",
     },
     {
@@ -8179,7 +8179,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Rose Hill",
-      locality: "Stanley 2 - Jinnah Ave from St Anne to C.D. Garde",
+      locality: "Stanley 2 - Jinnah  from St Anne to C.D. Garde",
       postalCode: "71171",
     },
     {
@@ -8215,7 +8215,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Rose Hill",
-      locality: "Stanley 2 - M. Gandhi Ave from St Anne to C.D. Garde",
+      locality: "Stanley 2 - M. Gandhi  from St Anne to C.D. Garde",
       postalCode: "71171",
     },
     {
@@ -8260,7 +8260,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Rose Hill",
-      locality: "Trefles 2 - Dr Jeetoo Ave",
+      locality: "Trefles 2 - Dr Jeetoo ",
       postalCode: "71174",
     },
     {
@@ -8290,7 +8290,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Rose Hill",
-      locality: "Trefles 1 - Manilall from Hugnin to Panchoo (Stanley Ave)",
+      locality: "Trefles 1 - Manilall from Hugnin to Panchoo (Stanley )",
       postalCode: "71173",
     },
     {
@@ -8321,7 +8321,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Rose Hill",
-      locality: "Trefles 1 - Pagoda Avenue from C.D. Garde to Rozemont",
+      locality: "Trefles 1 - Pagoda  from C.D. Garde to Rozemont",
       postalCode: "71173",
     },
     {
@@ -8336,7 +8336,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Rose Hill",
-      locality: "Stanley 1 - Bradshaw Ave",
+      locality: "Stanley 1 - Bradshaw ",
       postalCode: "71170",
     },
     { city: "Rose Hill", locality: "Stanley 1 - Thakoor", postalCode: "71170" },
@@ -8463,7 +8463,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Rose Hill",
-      locality: "Stanley 2 - Tamariniers Ave",
+      locality: "Stanley 2 - Tamariniers ",
       postalCode: "71171",
     },
     {
@@ -8513,7 +8513,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Rose Hill",
-      locality: "Rose Hill Centre 2 - Ambrose Avenue (south)",
+      locality: "Rose Hill Centre 2 - Ambrose  (south)",
       postalCode: "71361",
     },
     {
@@ -9053,10 +9053,10 @@ const TizardinAiPostalCodeFinder = () => {
       locality: "Rose Hill Centre 8 - Malartic (Southern Part)",
       postalCode: "71367",
     },
-    { city: "Rose Hill", locality: "Heaven Heights", postalCode: "71321" },
+    { city: "Rose Hill", locality: "Hen Heights", postalCode: "71321" },
     {
       city: "Rose Hill",
-      locality: "Morcellement Larcher",
+      locality: "Larcher",
       postalCode: "71337",
     },
     {
@@ -9066,7 +9066,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Rose Hill",
-      locality: "Plaisance 2 - Richard Avenue",
+      locality: "Plaisance 2 - Richard ",
       postalCode: "71349",
     },
     {
@@ -9083,7 +9083,7 @@ const TizardinAiPostalCodeFinder = () => {
     {
       city: "Rose Hill",
       locality:
-        "Roche Brunes/Plaisance 2 - De Plevitz Avenue (from Jhuboo to Mere Theresa)",
+        "Roche Brunes/Plaisance 2 - De Plevitz  (from Jhuboo to Mere Theresa)",
       postalCode: "71259",
     },
     {
@@ -9092,16 +9092,15 @@ const TizardinAiPostalCodeFinder = () => {
       postalCode: "71360",
     },
     { city: "Rose Hill", locality: "Mandarin Court", postalCode: "71322" },
-    { city: "Rose Hill", locality: "Morcellement Narain", postalCode: "71238" },
+    { city: "Rose Hill", locality: "Narain", postalCode: "71238" },
     {
       city: "Rose Hill",
-      locality: "Plaisance 1 - Joseph G. Avenue",
+      locality: "Plaisance 1 - Joseph G. ",
       postalCode: "71348",
     },
     {
       city: "Rose Hill",
-      locality:
-        "Plaisance 2 - Giroday Avenue (from Hugnin to Beau Bois) both sides",
+      locality: "Plaisance 2 - Giroday  (from Hugnin to Beau Bois) both sides",
       postalCode: "71349",
     },
     {
@@ -9112,7 +9111,7 @@ const TizardinAiPostalCodeFinder = () => {
     {
       city: "Rose Hill",
       locality:
-        "Roche Brunes/Plaisance - Roches Brunes Ave (South) from La Reine to Allaman",
+        "Roche Brunes/Plaisance - Roches Brunes  (South) from La Reine to Allaman",
       postalCode: "71254",
     },
     {
@@ -9126,29 +9125,28 @@ const TizardinAiPostalCodeFinder = () => {
       postalCode: "71360",
     },
     { city: "Rose Hill", locality: "Market Rose Hill", postalCode: "71323" },
-    { city: "Rose Hill", locality: "Morcellement Rogers", postalCode: "71339" },
+    { city: "Rose Hill", locality: "Rogers", postalCode: "71339" },
     {
       city: "Rose Hill",
-      locality:
-        "Plaisance 1 - Pigeot Avenue (north side from Allaman to Hugnin)",
+      locality: "Plaisance 1 - Pigeot  (north side from Allaman to Hugnin)",
       postalCode: "71348",
     },
     {
       city: "Rose Hill",
-      locality: "Plaisance 2 - St Louis Ave from Pigeot to Ratsitatane",
+      locality: "Plaisance 2 - St Louis  from Pigeot to Ratsitatane",
       postalCode: "71349",
     },
     { city: "Rose Hill", locality: "Residence Malartic", postalCode: "71356" },
     {
       city: "Rose Hill",
       locality:
-        "Roche Brunes/Plaisance - Sister Clemence Ave from La Reine to Allaman",
+        "Roche Brunes/Plaisance - Sister Clemence  from La Reine to Allaman",
       postalCode: "71254",
     },
     {
       city: "Rose Hill",
       locality:
-        "Roche Brunes/Plaisance 2 - Giroday Avenue (from Jhuboo to Franchette)",
+        "Roche Brunes/Plaisance 2 - Giroday  (from Jhuboo to Franchette)",
       postalCode: "71259",
     },
     {
@@ -9161,23 +9159,23 @@ const TizardinAiPostalCodeFinder = () => {
     {
       city: "Rose Hill",
       locality:
-        "Plaisance 1 - Roches Brunes Avenue (southern side from Hugnin to H. Allaman)",
+        "Plaisance 1 - Roches Brunes  (southern side from Hugnin to H. Allaman)",
       postalCode: "71348",
     },
     {
       city: "Rose Hill",
-      locality: "Plaisance 2 - Vincent Avenue (from Pigeot to Marie Clemence)",
+      locality: "Plaisance 2 - Vincent  (from Pigeot to Marie Clemence)",
       postalCode: "71349",
     },
     {
       city: "Rose Hill",
       locality:
-        "Roche Brunes/Plaisance - Allaman (west) from Ratsitatane to Roche Brunes Ave",
+        "Roche Brunes/Plaisance - Allaman (west) from Ratsitatane to Roche Brunes ",
       postalCode: "71254",
     },
     {
       city: "Rose Hill",
-      locality: "Roche Brunes/Plaisance - Ste Therese Avenue",
+      locality: "Roche Brunes/Plaisance - Ste Therese ",
       postalCode: "71254",
     },
     {
@@ -9198,8 +9196,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Rose Hill",
-      locality:
-        "Plaisance 1 - St Louis Avenue (from R. Brunes Ave to Pigeot Ave)",
+      locality: "Plaisance 1 - St Louis  (from R. Brunes  to Pigeot )",
       postalCode: "71348",
     },
     {
@@ -9230,13 +9227,13 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Rose Hill",
-      locality: "Plaisance 1 - Tranquille Avenue",
+      locality: "Plaisance 1 - Tranquille ",
       postalCode: "71348",
     },
     {
       city: "Rose Hill",
       locality:
-        "Plaisance H.E - Beau Bois Ave (West) from Marie Clemence to Pigeot",
+        "Plaisance H.E - Beau Bois  (West) from Marie Clemence to Pigeot",
       postalCode: "71350",
     },
     {
@@ -9247,7 +9244,7 @@ const TizardinAiPostalCodeFinder = () => {
     {
       city: "Rose Hill",
       locality:
-        "Roche Brunes/Plaisance 1 - De Plevitz Avenue (from La Reine St to Jhuboo St)",
+        "Roche Brunes/Plaisance 1 - De Plevitz  (from La Reine St to Jhuboo St)",
       postalCode: "71258",
     },
     {
@@ -9263,7 +9260,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Rose Hill",
-      locality: "Plaisance 1 - Vincent Avenue (from De Plevitz to Pigeot)",
+      locality: "Plaisance 1 - Vincent  (from De Plevitz to Pigeot)",
       postalCode: "71348",
     },
     {
@@ -9273,8 +9270,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Rose Hill",
-      locality:
-        "Roche Brunes/Plaisance - De Plevitz Ave from La Reine to Allaman",
+      locality: "Roche Brunes/Plaisance - De Plevitz  from La Reine to Allaman",
       postalCode: "71254",
     },
     {
@@ -9312,13 +9308,13 @@ const TizardinAiPostalCodeFinder = () => {
     {
       city: "Rose Hill",
       locality:
-        "Roche Brunes/Plaisance 1 - Giroday Avenue (from La Reine St to Jhuboo St)",
+        "Roche Brunes/Plaisance 1 - Giroday  (from La Reine St to Jhuboo St)",
       postalCode: "71258",
     },
     {
       city: "Rose Hill",
       locality:
-        "Roche Brunes/Plaisance 2 - Roches Brunes Ave (south) from Jhuboo to Concorde",
+        "Roche Brunes/Plaisance 2 - Roches Brunes  (south) from Jhuboo to Concorde",
       postalCode: "71259",
     },
     { city: "Rose Hill", locality: "Morc Bholah", postalCode: "71129" },
@@ -9340,7 +9336,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Rose Hill",
-      locality: "Roche Brunes/Plaisance - Dr. N. Luckeenarain Ave (Bois Noir)",
+      locality: "Roche Brunes/Plaisance - Dr. N. Luckeenarain  (Bois Noir)",
       postalCode: "71254",
     },
     {
@@ -9371,7 +9367,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Rose Hill",
-      locality: "Roche Brunes/Plaisance - Emmanuel E-Cotte Avenue",
+      locality: "Roche Brunes/Plaisance - Emmanuel E-Cotte ",
       postalCode: "71254",
     },
     {
@@ -9382,7 +9378,7 @@ const TizardinAiPostalCodeFinder = () => {
     {
       city: "Rose Hill",
       locality:
-        "Roche Brunes/Plaisance 2 - Sister Clemence Avenue (from Jhuboo to Franchette)",
+        "Roche Brunes/Plaisance 2 - Sister Clemence  (from Jhuboo to Franchette)",
       postalCode: "71259",
     },
     { city: "Rose Hill", locality: "Morc Gopal", postalCode: "71231" },
@@ -9390,19 +9386,18 @@ const TizardinAiPostalCodeFinder = () => {
     {
       city: "Rose Hill",
       locality:
-        "Plaisance 2 - Pigeot Avenue (southern side) from Hugnin to Beau Bois",
+        "Plaisance 2 - Pigeot  (southern side) from Hugnin to Beau Bois",
       postalCode: "71349",
     },
     {
       city: "Rose Hill",
       locality:
-        "Plaisance H.E - Piegot Avenue (southern side from Beau Bois to Allaman)",
+        "Plaisance H.E - Piegot  (southern side from Beau Bois to Allaman)",
       postalCode: "71350",
     },
     {
       city: "Rose Hill",
-      locality:
-        "Roche Brunes/Plaisance - Giroday Avenue from La Reine to Allaman",
+      locality: "Roche Brunes/Plaisance - Giroday  from La Reine to Allaman",
       postalCode: "71254",
     },
     {
@@ -9422,13 +9417,12 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Rose Hill",
-      locality: "Plaisance 1 - Auffray Avenue",
+      locality: "Plaisance 1 - Auffray ",
       postalCode: "71348",
     },
     {
       city: "Rose Hill",
-      locality:
-        "Plaisance 2 - Beau Bois Ave (East) from Marie Clemence to Pigeot",
+      locality: "Plaisance 2 - Beau Bois  (East) from Marie Clemence to Pigeot",
       postalCode: "71349",
     },
     {
@@ -9439,13 +9433,13 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Rose Hill",
-      locality: "Roche Brunes/Plaisance - I. M. Kalla Ave (Berthe)",
+      locality: "Roche Brunes/Plaisance - I. M. Kalla  (Berthe)",
       postalCode: "71254",
     },
     {
       city: "Rose Hill",
       locality:
-        "Roche Brunes/Plaisance 1 - Pigeot Avenue (from La Reine St to Jhuboo St)",
+        "Roche Brunes/Plaisance 1 - Pigeot  (from La Reine St to Jhuboo St)",
       postalCode: "71258",
     },
     {
@@ -9456,7 +9450,7 @@ const TizardinAiPostalCodeFinder = () => {
     { city: "Rose Hill", locality: "Morc Nouvelle Ville", postalCode: "71233" },
     {
       city: "Rose Hill",
-      locality: "Plaisance 1 - Churchill Avenue",
+      locality: "Plaisance 1 - Churchill ",
       postalCode: "71348",
     },
     {
@@ -9466,12 +9460,12 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Rose Hill",
-      locality: "Plaisance H.E - Vencatasamy Avenue",
+      locality: "Plaisance H.E - Vencatasamy ",
       postalCode: "71350",
     },
     {
       city: "Rose Hill",
-      locality: "Roche Brunes/Plaisance - M. Speville Avenue",
+      locality: "Roche Brunes/Plaisance - M. Speville ",
       postalCode: "71254",
     },
     {
@@ -9482,19 +9476,19 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Rose Hill",
-      locality: "Rose Hill Centre 1 - Ambrose Avenue (north)",
+      locality: "Rose Hill Centre 1 - Ambrose  (north)",
       postalCode: "71360",
     },
     { city: "Rose Hill", locality: "Galerie Evershine", postalCode: "71318" },
     { city: "Rose Hill", locality: "Morc Seeburn", postalCode: "71234" },
     {
       city: "Rose Hill",
-      locality: "Plaisance 1 - De Plevitz Avenue (from Hugnin to Allaman)",
+      locality: "Plaisance 1 - De Plevitz  (from Hugnin to Allaman)",
       postalCode: "71348",
     },
     {
       city: "Rose Hill",
-      locality: "Plaisance 2 - L'Anglois Avenue",
+      locality: "Plaisance 2 - L'Anglois ",
       postalCode: "71349",
     },
     {
@@ -9504,7 +9498,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Rose Hill",
-      locality: "Roche Brunes/Plaisance - Maillard Avenue",
+      locality: "Roche Brunes/Plaisance - Maillard ",
       postalCode: "71254",
     },
     {
@@ -9521,24 +9515,24 @@ const TizardinAiPostalCodeFinder = () => {
     { city: "Rose Hill", locality: "Morc Sookia", postalCode: "71135" },
     {
       city: "Rose Hill",
-      locality: "Plaisance 1 - Fleuriot Avenue",
+      locality: "Plaisance 1 - Fleuriot ",
       postalCode: "71348",
     },
     {
       city: "Rose Hill",
-      locality: "Plaisance 2 - De Chazal Avenue",
+      locality: "Plaisance 2 - De Chazal ",
       postalCode: "71349",
     },
     { city: "Rose Hill", locality: "Queen Courts", postalCode: "71352" },
     {
       city: "Rose Hill",
-      locality: "Roche Brunes/Plaisance - Mariamen Kovil Ave (Stafford Mayer)",
+      locality: "Roche Brunes/Plaisance - Mariamen Kovil  (Stafford Mayer)",
       postalCode: "71254",
     },
     {
       city: "Rose Hill",
       locality:
-        "Roche Brunes/Plaisance 1 - Roches Brunes Ave (South) from La Reine to Jhuboo",
+        "Roche Brunes/Plaisance 1 - Roches Brunes  (South) from La Reine to Jhuboo",
       postalCode: "71258",
     },
     {
@@ -9551,26 +9545,25 @@ const TizardinAiPostalCodeFinder = () => {
     {
       city: "Rose Hill",
       locality:
-        "Plaisance 1 - Hajee Allaman St (east side from R Brunes Ave to Pigeot)",
+        "Plaisance 1 - Hajee Allaman St (east side from R Brunes  to Pigeot)",
       postalCode: "71348",
     },
     {
       city: "Rose Hill",
       locality:
-        "Plaisance 2 - Sister Clemence Ave from Hugnin to Beau Bois (both sides)",
+        "Plaisance 2 - Sister Clemence  from Hugnin to Beau Bois (both sides)",
       postalCode: "71349",
     },
     { city: "Rose Hill", locality: "Renown Building", postalCode: "71353" },
     {
       city: "Rose Hill",
-      locality:
-        "Roche Brunes/Plaisance - Pigeot Avenue from La Reine to Allaman",
+      locality: "Roche Brunes/Plaisance - Pigeot  from La Reine to Allaman",
       postalCode: "71254",
     },
     {
       city: "Rose Hill",
       locality:
-        "Roche Brunes/Plaisance 1 - Sister Clemence Avenue (from La Reine St to Jhuboo St)",
+        "Roche Brunes/Plaisance 1 - Sister Clemence  (from La Reine St to Jhuboo St)",
       postalCode: "71258",
     },
     {
@@ -9581,7 +9574,7 @@ const TizardinAiPostalCodeFinder = () => {
     {
       city: "Belle Rose",
       locality:
-        "Belle Rose 8 - Ollier Ave from Royal road to Rail (southern side)",
+        "Belle Rose 8 - Ollier  from Royal road to Rail (southern side)",
       postalCode: "72108",
     },
     {
@@ -9591,7 +9584,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Camp Levieux",
-      locality: "Camp Levieux 1 - Canal Ave",
+      locality: "Camp Levieux 1 - Canal ",
       postalCode: "71203",
     },
     {
@@ -9612,13 +9605,12 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Belle Rose",
-      locality: "Belle Rose 8 - Beau Sejour Ave",
+      locality: "Belle Rose 8 - Beau Sejour ",
       postalCode: "72108",
     },
     {
       city: "Belle Rose",
-      locality:
-        "Belle Rose 9 - Wilson Ave south side Royal road to Colville Ave",
+      locality: "Belle Rose 9 - Wilson  south side Royal road to Colville ",
       postalCode: "72204",
     },
     {
@@ -9644,18 +9636,18 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Rose Hill",
-      locality: "Belle Rose 8 - La Hausse Ave",
+      locality: "Belle Rose 8 - La Hausse ",
       postalCode: "72108",
     },
     {
       city: "Rose Hill",
-      locality: "Belle Rose 9 - De Caen Ave",
+      locality: "Belle Rose 9 - De Caen ",
       postalCode: "72204",
     },
     {
       city: "Rose Hill",
       locality:
-        "Camp Levieux 1 - Cretin Ave (north side) from Berthaud Ave to Rue Canal",
+        "Camp Levieux 1 - Cretin  (north side) from Berthaud  to Rue Canal",
       postalCode: "71203",
     },
     {
@@ -9675,18 +9667,18 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Rose Hill",
-      locality: "Belle Rose 8 - G.Ythier Ave from Ollier to Mallefille",
+      locality: "Belle Rose 8 - G.Ythier  from Ollier to Mallefille",
       postalCode: "72108",
     },
     {
       city: "Rose Hill",
       locality:
-        "Belle Rose 9 - Royal road from Wilson Ave to Belle Rose (Forget) Ave",
+        "Belle Rose 9 - Royal road from Wilson  to Belle Rose (Forget) ",
       postalCode: "72204",
     },
     {
       city: "Rose Hill",
-      locality: "Camp Levieux 1 - D'Argent Ave",
+      locality: "Camp Levieux 1 - D'Argent ",
       postalCode: "71203",
     },
     {
@@ -9702,7 +9694,7 @@ const TizardinAiPostalCodeFinder = () => {
     { city: "Rose Hill", locality: "Flat Abdoolah", postalCode: "71308" },
     {
       city: "Rose Hill",
-      locality: "Belle Rose 8 - Mallefille Ave (Royal road to Laperouse Ave)",
+      locality: "Belle Rose 8 - Mallefille  (Royal road to Laperouse )",
       postalCode: "72108",
     },
     {
@@ -9717,7 +9709,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Rose Hill",
-      locality: "Camp Levieux 1 - Nabee Ave",
+      locality: "Camp Levieux 1 - Nabee ",
       postalCode: "71203",
     },
     {
@@ -9728,7 +9720,7 @@ const TizardinAiPostalCodeFinder = () => {
     { city: "Rose Hill", locality: "Flat Badamiers", postalCode: "71309" },
     {
       city: "Rose Hill",
-      locality: "Belle Rose 8 - Ythier Ave",
+      locality: "Belle Rose 8 - Ythier ",
       postalCode: "72108",
     },
     {
@@ -9743,7 +9735,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Rose Hill",
-      locality: "Camp Levieux 1 - Nubee Ave",
+      locality: "Camp Levieux 1 - Nubee ",
       postalCode: "71203",
     },
     {
@@ -9758,7 +9750,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Rose Hill",
-      locality: "Belle Rose 8 - La Perouse Ave (both sides)",
+      locality: "Belle Rose 8 - La Perouse  (both sides)",
       postalCode: "72108",
     },
     {
@@ -9773,7 +9765,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Rose Hill",
-      locality: "Camp Levieux 1 - Petit Montagne Ave",
+      locality: "Camp Levieux 1 - Petit Montagne ",
       postalCode: "71203",
     },
     {
@@ -9784,7 +9776,7 @@ const TizardinAiPostalCodeFinder = () => {
     { city: "Rose Hill", locality: "Flat Hollywood", postalCode: "71311" },
     {
       city: "Rose Hill",
-      locality: "Belle Rose 8 - Madhoo Ave",
+      locality: "Belle Rose 8 - Madhoo ",
       postalCode: "72108",
     },
     {
@@ -9799,7 +9791,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Rose Hill",
-      locality: "Camp Levieux 1 - Prince Charles Avenue",
+      locality: "Camp Levieux 1 - Prince Charles ",
       postalCode: "71203",
     },
     {
@@ -9810,7 +9802,7 @@ const TizardinAiPostalCodeFinder = () => {
     { city: "Rose Hill", locality: "Flat Monmartre", postalCode: "71312" },
     {
       city: "Rose Hill",
-      locality: "Belle Rose 8 - R Modun Ave",
+      locality: "Belle Rose 8 - R Modun ",
       postalCode: "72108",
     },
     {
@@ -9826,7 +9818,7 @@ const TizardinAiPostalCodeFinder = () => {
     {
       city: "Rose Hill",
       locality:
-        "Camp Levieux 1 - Ratsitatane Ave (south side) from Berthaud Ave to Rue Canal",
+        "Camp Levieux 1 - Ratsitatane  (south side) from Berthaud  to Rue Canal",
       postalCode: "71203",
     },
     {
@@ -9837,7 +9829,7 @@ const TizardinAiPostalCodeFinder = () => {
     { city: "Rose Hill", locality: "Flat Pem", postalCode: "71313" },
     {
       city: "Rose Hill",
-      locality: "Belle Rose 8 - Kooraram Ave",
+      locality: "Belle Rose 8 - Kooraram ",
       postalCode: "72108",
     },
     {
@@ -9852,7 +9844,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Rose Hill",
-      locality: "Camp Levieux 1 - Surcouf Ave",
+      locality: "Camp Levieux 1 - Surcouf ",
       postalCode: "71203",
     },
     {
@@ -9867,7 +9859,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Rose Hill",
-      locality: "Belle Rose 8 - Naz Ave from Beau Sejour Ave to Lapeyrouse Ave",
+      locality: "Belle Rose 8 - Naz  from Beau Sejour  to Lapeyrouse ",
       postalCode: "72108",
     },
     {
@@ -9919,12 +9911,12 @@ const TizardinAiPostalCodeFinder = () => {
     { city: "Rose Hill", locality: "Flat Roches Brunes", postalCode: "71216" },
     {
       city: "Rose Hill",
-      locality: "Belle Rose 7 - Mareemootoo Ave",
+      locality: "Belle Rose 7 - Mareemootoo ",
       postalCode: "72107",
     },
     {
       city: "Rose Hill",
-      locality: "Belle Rose 8 - Wilson Ave (Colville to La Perouse) both sides",
+      locality: "Belle Rose 8 - Wilson  (Colville to La Perouse) both sides",
       postalCode: "72108",
     },
     {
@@ -9934,12 +9926,12 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Rose Hill",
-      locality: "Camp Levieux 1 - La Mare Ave",
+      locality: "Camp Levieux 1 - La Mare ",
       postalCode: "71203",
     },
     {
       city: "Rose Hill",
-      locality: "Camp Levieux 2 - Assembly Ave",
+      locality: "Camp Levieux 2 - Assembly ",
       postalCode: "71204",
     },
     {
@@ -9957,12 +9949,12 @@ const TizardinAiPostalCodeFinder = () => {
     {
       city: "Rose Hill",
       locality:
-        "Belle Rose 8 - Wilson Ave (northern side) Royal road up to Colville",
+        "Belle Rose 8 - Wilson  (northern side) Royal road up to Colville",
       postalCode: "72108",
     },
     {
       city: "Rose Hill",
-      locality: "Camp Levieux 1 - Barbier Ave",
+      locality: "Camp Levieux 1 - Barbier ",
       postalCode: "71203",
     },
     {
@@ -10024,7 +10016,7 @@ const TizardinAiPostalCodeFinder = () => {
     {
       city: "Rose Hill",
       locality:
-        "Camp Levieux 1 - Berthaud Ave (west side) C.D.Garde Ave to Ratsitatane Ave",
+        "Camp Levieux 1 - Berthaud  (west side) C.D.Garde  to Ratsitatane ",
       postalCode: "71203",
     },
     {
@@ -10049,20 +10041,19 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Rose Hill",
-      locality:
-        "Beau Sejour 5 - Stanley Ave (both sides) from Ollier to Boundary",
+      locality: "Beau Sejour 5 - Stanley  (both sides) from Ollier to Boundary",
       postalCode: "72301",
     },
     { city: "Rose Hill", locality: "Arab Town", postalCode: "71301" },
     {
       city: "Rose Hill",
-      locality: "Beau Sejour 4 - Dr Ross Ave from Ollier to Boundary",
+      locality: "Beau Sejour 4 - Dr Ross  from Ollier to Boundary",
       postalCode: "72102",
     },
     {
       city: "Rose Hill",
       locality:
-        "Belle Rose 6 Coriolis (walk 5) - Boundary Ave southern side from River to Railway",
+        "Belle Rose 6 Coriolis (walk 5) - Boundary  southern side from River to Railway",
       postalCode: "72106",
     },
     { city: "Rose Hill", locality: "Arcades Reetoo", postalCode: "71302" },
@@ -10094,12 +10085,12 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Rose Hill",
-      locality: "Beau Sejour 3 - Cassidy Ave",
+      locality: "Beau Sejour 3 - Cassidy ",
       postalCode: "72101",
     },
     {
       city: "Rose Hill",
-      locality: "Beau Sejour 4 - Le Conte de Lisle Ave Ollier to Boundary",
+      locality: "Beau Sejour 4 - Le Conte de Lisle  Ollier to Boundary",
       postalCode: "72102",
     },
     {
@@ -10109,7 +10100,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Rose Hill",
-      locality: "Beau Sejour 3 - Cretin Ave",
+      locality: "Beau Sejour 3 - Cretin ",
       postalCode: "72101",
     },
     {
@@ -10119,7 +10110,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Rose Hill",
-      locality: "Belle Rose 6 Coriolis (walk 5) - L Koenig Ave",
+      locality: "Belle Rose 6 Coriolis (walk 5) - L Koenig ",
       postalCode: "72106",
     },
     {
@@ -10139,7 +10130,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Rose Hill",
-      locality: "Beau Sejour 3 - Lees Ave",
+      locality: "Beau Sejour 3 - Lees ",
       postalCode: "72101",
     },
     {
@@ -10200,8 +10191,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Forest Side",
-      locality:
-        "Cite Camp Le Juge - Gustave Colin (south) from Oak ave to Rivulet",
+      locality: "Cite Camp Le Juge - Gust Colin (south) from Oak  to Rivulet",
       postalCode: "74406",
     },
     {
@@ -10365,7 +10355,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Forest Side",
-      locality: "Morcellement Daruty",
+      locality: "Daruty",
       postalCode: "74532",
     },
     {
@@ -10385,7 +10375,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Forest Side",
-      locality: "Morcellement Ramalingum - Bungsy Lane",
+      locality: "Ramalingum - Bungsy Lane",
       postalCode: "74556",
     },
     {
@@ -10405,7 +10395,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Forest Side",
-      locality: "Morcellement Ramalingum - Domur lane",
+      locality: "Ramalingum - Domur lane",
       postalCode: "74556",
     },
     {
@@ -10425,7 +10415,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Forest Side",
-      locality: "Morcellement Ramalingum - Cardinal Margeot Street",
+      locality: "Ramalingum - Cardinal Margeot Street",
       postalCode: "74556",
     },
     { city: "Forest Side", locality: "Rochecouste - NTA", postalCode: "74438" },
@@ -10438,7 +10428,7 @@ const TizardinAiPostalCodeFinder = () => {
     {
       city: "Forest Side",
       locality:
-        "Morcellement Ramalingum - G Colin Street (North side) from Margeot to Ramalingum",
+        "Ramalingum - G Colin Street (North side) from Margeot to Ramalingum",
       postalCode: "74556",
     },
     {
@@ -10458,7 +10448,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Forest Side",
-      locality: "Morcellement Ramalingum - Ramalingum Lane",
+      locality: "Ramalingum - Ramalingum Lane",
       postalCode: "74556",
     },
     {
@@ -10539,7 +10529,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Forest Side",
-      locality: "Cite Atlee - Greenwood Ave",
+      locality: "Cite Atlee - Greenwood ",
       postalCode: "74405",
     },
     {
@@ -10565,7 +10555,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Forest Side",
-      locality: "Cite Atlee - Gustave Colin (south) from Ampere St to street F",
+      locality: "Cite Atlee - Gust Colin (south) from Ampere St to street F",
       postalCode: "74405",
     },
     {
@@ -10575,7 +10565,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Forest Side",
-      locality: "Forst-Side 1 - Gustave Bestel Street",
+      locality: "Forst-Side 1 - Gust Bestel Street",
       postalCode: "74513",
     },
     {
@@ -10616,7 +10606,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Forest Side",
-      locality: "Cite Atlee - Jean XX1 Ave",
+      locality: "Cite Atlee - Jean XX1 ",
       postalCode: "74405",
     },
     {
@@ -10688,8 +10678,7 @@ const TizardinAiPostalCodeFinder = () => {
     { city: "Forest Side", locality: "Celicourt Antelme", postalCode: "74444" },
     {
       city: "Forest Side",
-      locality:
-        "Cite Camp Le Juge - Gustave Colin (south) from Oak ave to Rivulet",
+      locality: "Cite Camp Le Juge - Gust Colin (south) from Oak  to Rivulet",
       postalCode: "74406",
     },
     {
@@ -10819,7 +10808,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Forest Side",
-      locality: "Cite St Luc - Ravenal lane",
+      locality: "Cite St Luc - Rnal lane",
       postalCode: "74410",
     },
     {
@@ -10859,23 +10848,23 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Quatre Bornes",
-      locality: "Sodnac - Ave des Pelicans",
+      locality: "Sodnac -  des Pelicans",
       postalCode: "72256",
     },
     {
       city: "Quatre Bornes",
-      locality: "Sodnac - Ave des Nandous",
+      locality: "Sodnac -  des Nandous",
       postalCode: "72256",
     },
     { city: "Quatre Bornes", locality: "Trianon", postalCode: "72257" },
     {
       city: "Quatre Bornes",
-      locality: "Sodnac - Ave des Aigles",
+      locality: "Sodnac -  des Aigles",
       postalCode: "72256",
     },
     {
       city: "Quatre Bornes",
-      locality: "Sodnac - Ave des Pigeons",
+      locality: "Sodnac -  des Pigeons",
       postalCode: "72256",
     },
     {
@@ -10885,12 +10874,12 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Quatre Bornes",
-      locality: "Sodnac - Ave des Allouettes",
+      locality: "Sodnac -  des Allouettes",
       postalCode: "72256",
     },
     {
       city: "Quatre Bornes",
-      locality: "Sodnac - Ave des Pinsons",
+      locality: "Sodnac -  des Pinsons",
       postalCode: "72256",
     },
     {
@@ -10900,23 +10889,23 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Quatre Bornes",
-      locality: "Sodnac - Ave des Autruches",
+      locality: "Sodnac -  des Autruches",
       postalCode: "72256",
     },
     {
       city: "Quatre Bornes",
-      locality: "Sodnac - Ave des Roitelets",
+      locality: "Sodnac -  des Roitelets",
       postalCode: "72256",
     },
     { city: "Quatre Bornes", locality: "Morc Mio", postalCode: "72560" },
     {
       city: "Quatre Bornes",
-      locality: "Sodnac - Ave des Becasses",
+      locality: "Sodnac -  des Becasses",
       postalCode: "72256",
     },
     {
       city: "Quatre Bornes",
-      locality: "Sodnac - Ave des Tulipes",
+      locality: "Sodnac -  des Tulipes",
       postalCode: "72256",
     },
     {
@@ -10926,27 +10915,27 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Quatre Bornes",
-      locality: "Sodnac - Ave des Bengalis",
+      locality: "Sodnac -  des Bengalis",
       postalCode: "72256",
     },
     {
       city: "Quatre Bornes",
-      locality: "Sodnac - Ave du Cardinal",
+      locality: "Sodnac -  du Cardinal",
       postalCode: "72256",
     },
     {
       city: "Quatre Bornes",
-      locality: "Sodnac - Ave des Canards",
+      locality: "Sodnac -  des Canards",
       postalCode: "72256",
     },
     {
       city: "Quatre Bornes",
-      locality: "Sodnac - Hillcrest Avenue",
+      locality: "Sodnac - Hillcrest ",
       postalCode: "72256",
     },
     {
       city: "Quatre Bornes",
-      locality: "Sodnac - Ave des Colombes",
+      locality: "Sodnac -  des Colombes",
       postalCode: "72256",
     },
     {
@@ -10956,7 +10945,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Quatre Bornes",
-      locality: "Sodnac - Ave des Eperviers",
+      locality: "Sodnac -  des Eperviers",
       postalCode: "72256",
     },
     {
@@ -10971,12 +10960,12 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Quatre Bornes",
-      locality: "Sodnac - Ave des Flammants",
+      locality: "Sodnac -  des Flammants",
       postalCode: "72256",
     },
     {
       city: "Quatre Bornes",
-      locality: "Sodnac - Loriots Ave",
+      locality: "Sodnac - Loriots ",
       postalCode: "72256",
     },
     {
@@ -10986,109 +10975,109 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Quatre Bornes",
-      locality: "Sodnac - Ave des Geais",
+      locality: "Sodnac -  des Geais",
       postalCode: "72256",
     },
     {
       city: "Quatre Bornes",
-      locality: "Sodnac - Perdrix Ave",
+      locality: "Sodnac - Perdrix ",
       postalCode: "72256",
     },
     {
       city: "Quatre Bornes",
-      locality: "Renganaden Seeneevassen Ave",
+      locality: "Renganaden Seeneevassen ",
       postalCode: "72455",
     },
     {
       city: "Quatre Bornes",
-      locality: "Sodnac - Ave des Hirondelles",
+      locality: "Sodnac -  des Hirondelles",
       postalCode: "72256",
     },
     {
       city: "Quatre Bornes",
-      locality: "Sodnac - Roitelets Ave",
+      locality: "Sodnac - Roitelets ",
       postalCode: "72256",
     },
     {
       city: "Quatre Bornes",
-      locality: "Sodnac - Ave des Dodos",
+      locality: "Sodnac -  des Dodos",
       postalCode: "72256",
     },
     {
       city: "Quatre Bornes",
-      locality: "Sodnac - Ave des Ibis",
+      locality: "Sodnac -  des Ibis",
       postalCode: "72256",
     },
     {
       city: "Quatre Bornes",
-      locality: "Sodnac - Rossignol Ave",
+      locality: "Sodnac - Rossignol ",
       postalCode: "72256",
     },
     {
       city: "Quatre Bornes",
-      locality: "Sodnac - Ave des Faucons",
+      locality: "Sodnac -  des Faucons",
       postalCode: "72256",
     },
     {
       city: "Quatre Bornes",
-      locality: "Sodnac - Ave des Kiwis",
+      locality: "Sodnac -  des Kiwis",
       postalCode: "72256",
     },
     {
       city: "Quatre Bornes",
-      locality: "Sodnac - Sodnac Ave (both sides)",
+      locality: "Sodnac - Sodnac  (both sides)",
       postalCode: "72256",
     },
     {
       city: "Quatre Bornes",
-      locality: "Sodnac - Ave des Fauvettes",
+      locality: "Sodnac -  des Fauvettes",
       postalCode: "72256",
     },
     {
       city: "Quatre Bornes",
-      locality: "Sodnac - Ave des Moineaux",
+      locality: "Sodnac -  des Moineaux",
       postalCode: "72256",
     },
     { city: "Quatre Bornes", locality: "Sodnac SSS", postalCode: "72256" },
     {
       city: "Quatre Bornes",
-      locality: "Sodnac - Ave des Tourterelles",
+      locality: "Sodnac -  des Tourterelles",
       postalCode: "72256",
     },
     {
       city: "Quatre Bornes",
-      locality: "Sodnac - Ave des Mouettes",
+      locality: "Sodnac -  des Mouettes",
       postalCode: "72256",
     },
     {
       city: "Quatre Bornes",
-      locality: "Sodnac - Toucan Ave",
+      locality: "Sodnac - Toucan ",
       postalCode: "72256",
     },
     {
       city: "Quatre Bornes",
-      locality: "Quatre Bornes 2 - Duperre Ave",
+      locality: "Quatre Bornes 2 - Duperre ",
       postalCode: "72350",
     },
     {
       city: "Quatre Bornes",
       locality:
-        "Quatre Bornes 2 - Sir Guy Forget from B.D.St Pierre Ave to Victoria Ave",
+        "Quatre Bornes 2 - Sir Guy Forget from B.D.St Pierre  to Victoria ",
       postalCode: "72350",
     },
     {
       city: "Quatre Bornes",
-      locality: "Quatre Bornes 3 - Duperre Ave",
+      locality: "Quatre Bornes 3 - Duperre ",
       postalCode: "72351",
     },
     {
       city: "Quatre Bornes",
-      locality: "Quatre Bornes 3 - Sir C. Antelme Ave",
+      locality: "Quatre Bornes 3 - Sir C. Antelme ",
       postalCode: "72351",
     },
     {
       city: "Quatre Bornes",
-      locality: "Quatre Bornes 5 - Meredac Ave",
+      locality: "Quatre Bornes 5 - Meredac ",
       postalCode: "72253",
     },
     {
@@ -11099,12 +11088,12 @@ const TizardinAiPostalCodeFinder = () => {
     {
       city: "Quatre Bornes",
       locality:
-        "Quatre Bornes 2 - Sir Naz Ave (south) Side from Hitchcock to Berthaud",
+        "Quatre Bornes 2 - Sir Naz  (south) Side from Hitchcock to Berthaud",
       postalCode: "72350",
     },
     {
       city: "Quatre Bornes",
-      locality: "Quatre Bornes 3 - Einstein Ave",
+      locality: "Quatre Bornes 3 - Einstein ",
       postalCode: "72351",
     },
     {
@@ -11120,22 +11109,22 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Quatre Bornes",
-      locality: "Quatre Bornes 2 - Fleming Ave",
+      locality: "Quatre Bornes 2 - Fleming ",
       postalCode: "72350",
     },
     {
       city: "Quatre Bornes",
-      locality: "Quatre Bornes 2 - Stanley Ave",
+      locality: "Quatre Bornes 2 - Stanley ",
       postalCode: "72350",
     },
     {
       city: "Quatre Bornes",
-      locality: "Quatre Bornes 3 - Farquhar Ave from Naz to Ollier",
+      locality: "Quatre Bornes 3 - Farquhar  from Naz to Ollier",
       postalCode: "72351",
     },
     {
       city: "Quatre Bornes",
-      locality: "Quatre Bornes 3 - Stanley Ave",
+      locality: "Quatre Bornes 3 - Stanley ",
       postalCode: "72351",
     },
     {
@@ -11145,7 +11134,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Quatre Bornes",
-      locality: "Quatre Bornes 2 - Farquhar Ave from Victoria to Naz",
+      locality: "Quatre Bornes 2 - Farquhar  from Victoria to Naz",
       postalCode: "72350",
     },
     {
@@ -11155,12 +11144,12 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Quatre Bornes",
-      locality: "Quatre Bornes 3 - Hitchcock Ave (west) from Ollier to Naz",
+      locality: "Quatre Bornes 3 - Hitchcock  (west) from Ollier to Naz",
       postalCode: "72351",
     },
     {
       city: "Quatre Bornes",
-      locality: "Quatre Bornes 3 - Stanley Ave from Naz to Ollier",
+      locality: "Quatre Bornes 3 - Stanley  from Naz to Ollier",
       postalCode: "72351",
     },
     {
@@ -11170,8 +11159,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Quatre Bornes",
-      locality:
-        "Quatre Bornes 2 - Gladstone Ave (from Stanley Ave to Hitchcock Ave)",
+      locality: "Quatre Bornes 2 - Gladstone  (from Stanley  to Hitchcock )",
       postalCode: "72350",
     },
     {
@@ -11186,12 +11174,12 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Quatre Bornes",
-      locality: "Quatre Bornes 3 - Stylet Ave",
+      locality: "Quatre Bornes 3 - Stylet ",
       postalCode: "72351",
     },
     {
       city: "Quatre Bornes",
-      locality: "Quatre Bornes 5 - Sir S. Ramgoolam Ave (both sides)",
+      locality: "Quatre Bornes 5 - Sir S. Ramgoolam  (both sides)",
       postalCode: "72253",
     },
     {
@@ -11217,7 +11205,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Quatre Bornes",
-      locality: "Quatre Bornes 5 - Sir W. Newton Ave",
+      locality: "Quatre Bornes 5 - Sir W. Newton ",
       postalCode: "72253",
     },
     {
@@ -11228,7 +11216,7 @@ const TizardinAiPostalCodeFinder = () => {
     {
       city: "Quatre Bornes",
       locality:
-        "Quatre Bornes 2 - St. Jean Rd (North Side) Victoria to Berthaud Ave",
+        "Quatre Bornes 2 - St. Jean Rd (North Side) Victoria to Berthaud ",
       postalCode: "72350",
     },
     {
@@ -11238,12 +11226,12 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Quatre Bornes",
-      locality: "Quatre Bornes 4 - Berthaud Ave (east) from Ollier to Boundary",
+      locality: "Quatre Bornes 4 - Berthaud  (east) from Ollier to Boundary",
       postalCode: "72352",
     },
     {
       city: "Quatre Bornes",
-      locality: "Quatre Bornes 5 - T. D'Avice Ave",
+      locality: "Quatre Bornes 5 - T. D'Avice ",
       postalCode: "72253",
     },
     {
@@ -11258,7 +11246,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Quatre Bornes",
-      locality: "Quatre Bornes 3 - Leclezio Ave",
+      locality: "Quatre Bornes 3 - Leclezio ",
       postalCode: "72351",
     },
     {
@@ -11268,22 +11256,22 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Quatre Bornes",
-      locality: "Quatre Bornes 5 - Tritan D'Avice Ave",
+      locality: "Quatre Bornes 5 - Tritan D'Avice ",
       postalCode: "72253",
     },
     {
       city: "Quatre Bornes",
-      locality: "Quatre Bornes 2 - Labourdonnais Ave",
+      locality: "Quatre Bornes 2 - Labourdonnais ",
       postalCode: "72350",
     },
     {
       city: "Quatre Bornes",
-      locality: "Quatre Bornes 2 - Stevenson Ave",
+      locality: "Quatre Bornes 2 - Stevenson ",
       postalCode: "72350",
     },
     {
       city: "Quatre Bornes",
-      locality: "Quatre Bornes 3 - Louvet Ave",
+      locality: "Quatre Bornes 3 - Louvet ",
       postalCode: "72351",
     },
     {
@@ -11293,7 +11281,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Quatre Bornes",
-      locality: "Quatre Bornes 5 - Wellington Ave",
+      locality: "Quatre Bornes 5 - Wellington ",
       postalCode: "72253",
     },
     {
@@ -11303,7 +11291,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Quatre Bornes",
-      locality: "Quatre Bornes 2 - Surcouf Ave",
+      locality: "Quatre Bornes 2 - Surcouf ",
       postalCode: "72350",
     },
     {
@@ -11318,7 +11306,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Quatre Bornes",
-      locality: "Quatre Bornes 2 - L.L'homme Ave",
+      locality: "Quatre Bornes 2 - L.L'homme ",
       postalCode: "72350",
     },
     {
@@ -11328,8 +11316,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Quatre Bornes",
-      locality:
-        "Quatre Bornes 3 - Ollier Ave (south) from Berthaud Ave to Hitchcock",
+      locality: "Quatre Bornes 3 - Ollier  (south) from Berthaud  to Hitchcock",
       postalCode: "72351",
     },
     {
@@ -11360,12 +11347,12 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Quatre Bornes",
-      locality: "Quatre Bornes 5 - B. Sequard Ave",
+      locality: "Quatre Bornes 5 - B. Sequard ",
       postalCode: "72253",
     },
     {
       city: "Quatre Bornes",
-      locality: "Quatre Bornes 2 - Bouvet Ave",
+      locality: "Quatre Bornes 2 - Bouvet ",
       postalCode: "72350",
     },
     {
@@ -11375,7 +11362,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Quatre Bornes",
-      locality: "Quatre Bornes 2 - Willoughby Ave",
+      locality: "Quatre Bornes 2 - Willoughby ",
       postalCode: "72350",
     },
     {
@@ -11390,17 +11377,17 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Quatre Bornes",
-      locality: "Quatre Bornes 2 - Bruce Ave",
+      locality: "Quatre Bornes 2 - Bruce ",
       postalCode: "72350",
     },
     {
       city: "Quatre Bornes",
-      locality: "Quatre Bornes 2 - Odette Ernest Ave",
+      locality: "Quatre Bornes 2 - Odette Ernest ",
       postalCode: "72350",
     },
     {
       city: "Quatre Bornes",
-      locality: "Quatre Bornes 3 - A. Brown Ave",
+      locality: "Quatre Bornes 3 - A. Brown ",
       postalCode: "72351",
     },
     {
@@ -11410,7 +11397,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Quatre Bornes",
-      locality: "Quatre Bornes 5 - Cossigny Ave",
+      locality: "Quatre Bornes 5 - Cossigny ",
       postalCode: "72253",
     },
     {
@@ -11425,12 +11412,12 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Quatre Bornes",
-      locality: "Quatre Bornes 3 - Balgobin Ave",
+      locality: "Quatre Bornes 3 - Balgobin ",
       postalCode: "72351",
     },
     {
       city: "Quatre Bornes",
-      locality: "Quatre Bornes 3 - R. Ollier Ave",
+      locality: "Quatre Bornes 3 - R. Ollier ",
       postalCode: "72351",
     },
     {
@@ -11440,22 +11427,22 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Quatre Bornes",
-      locality: "Quatre Bornes 2 - Darwin Ave",
+      locality: "Quatre Bornes 2 - Darwin ",
       postalCode: "72350",
     },
     {
       city: "Quatre Bornes",
-      locality: "Quatre Bornes 2 - Mgr Murphy Ave",
+      locality: "Quatre Bornes 2 - Mgr Murphy ",
       postalCode: "72350",
     },
     {
       city: "Quatre Bornes",
-      locality: "Quatre Bornes 3 - Berthaud Ave (East) from Remy Ollier to Naz",
+      locality: "Quatre Bornes 3 - Berthaud  (East) from Remy Ollier to Naz",
       postalCode: "72351",
     },
     {
       city: "Quatre Bornes",
-      locality: "Quatre Bornes 3 - S. Gaya Ave",
+      locality: "Quatre Bornes 3 - S. Gaya ",
       postalCode: "72351",
     },
     {
@@ -11465,7 +11452,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Quatre Bornes",
-      locality: "Nehru Road (from Kingstone Ave to Kalimaye Rd)",
+      locality: "Nehru Road (from Kingstone  to Kalimaye Rd)",
       postalCode: "72539",
     },
     {
@@ -11475,7 +11462,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Palma 1",
-      locality: "Laseringue Avenue (eastern side)",
+      locality: "Laseringue  (eastern side)",
       postalCode: "72444",
     },
     { city: "Palma Junction", locality: "Palma Junction", postalCode: "72546" },
@@ -11492,7 +11479,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     { city: "Palma 1", locality: "M. Beekharry lane", postalCode: "72444" },
     { city: "Pellegrin", locality: "Pellegrin", postalCode: "72247" },
-    { city: "Quatre Bornes 1", locality: "Henessy Ave", postalCode: "72249" },
+    { city: "Quatre Bornes 1", locality: "Henessy ", postalCode: "72249" },
     {
       city: "N H D C Villeneuve",
       locality: "N H D C Villeneuve",
@@ -11501,7 +11488,7 @@ const TizardinAiPostalCodeFinder = () => {
     { city: "Paillotte (West)", locality: "Dawoo Lane", postalCode: "73360" },
     {
       city: "Palma 1",
-      locality: "Palma Rd (south) from Cremation Ave to Round About",
+      locality: "Palma Rd (south) from Cremation  to Round About",
       postalCode: "72444",
     },
     { city: "Pierrefonds", locality: "Pierrefonds", postalCode: "72248" },
@@ -11511,30 +11498,30 @@ const TizardinAiPostalCodeFinder = () => {
     { city: "Palma 1", locality: "Pandeea lane", postalCode: "72444" },
     {
       city: "Quatre Bornes",
-      locality: "Telfair Ave (west side) from St. Jean Road to Forget Ave",
+      locality: "Telfair  (west side) from St. Jean Road to Forget ",
       postalCode: "72249",
     },
-    { city: "Quatre Bornes", locality: "Osman Ave", postalCode: "72249" },
+    { city: "Quatre Bornes", locality: "Osman ", postalCode: "72249" },
     { city: "Quatre Bornes", locality: "Orchard Tower", postalCode: "72243" },
     {
       city: "Paillotte (West)",
       locality: "Kalimaye lane",
       postalCode: "73360",
     },
-    { city: "Palma 1", locality: "R. Rughooputh Ave", postalCode: "72444" },
+    { city: "Palma 1", locality: "R. Rughooputh ", postalCode: "72444" },
     {
       city: "Quatre Bornes",
-      locality: "St. Jean Rd (north side) from Telfair St to Victoria Ave",
+      locality: "St. Jean Rd (north side) from Telfair St to Victoria ",
       postalCode: "72249",
     },
-    { city: "Quatre Bornes", locality: "P. Henri Ave", postalCode: "72249" },
+    { city: "Quatre Bornes", locality: "P. Henri ", postalCode: "72249" },
     { city: "Paillotte (East)", locality: "Bambous Rd", postalCode: "73452" },
     {
       city: "Paillotte (West)",
       locality: "Ragoo Lane up to Verna Lane",
       postalCode: "73360",
     },
-    { city: "Palma 1", locality: "Sowamber Ave", postalCode: "72444" },
+    { city: "Palma 1", locality: "Sowamber ", postalCode: "72444" },
     {
       city: "Quatre Bornes",
       locality: "Forget Rd (southern side) from Telfair St to Buswell St",
@@ -11554,10 +11541,10 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Quatre Bornes",
-      locality: "Doyen Ave (west side) from Forget to V. Naaz",
+      locality: "Doyen  (west side) from Forget to V. Naaz",
       postalCode: "72249",
     },
-    { city: "Quatre Bornes", locality: "Tagore Ave", postalCode: "72249" },
+    { city: "Quatre Bornes", locality: "Tagore ", postalCode: "72249" },
     { city: "Paillotte (East)", locality: "Boojhoo Rd", postalCode: "73452" },
     {
       city: "Paillotte (West)",
@@ -11571,7 +11558,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Quatre Bornes",
-      locality: "Victoria Ave (east side) from V. Naaz to St. Jean Rd",
+      locality: "Victoria  (east side) from V. Naaz to St. Jean Rd",
       postalCode: "72249",
     },
     { city: "Quatre Bornes", locality: "Town Hall", postalCode: "72249" },
@@ -11587,10 +11574,10 @@ const TizardinAiPostalCodeFinder = () => {
       postalCode: "72445",
     },
     { city: "Quatre Bornes", locality: "Bus Terminal", postalCode: "72249" },
-    { city: "Quatre Bornes", locality: "Baissac Ave", postalCode: "72350" },
+    { city: "Quatre Bornes", locality: "Baissac ", postalCode: "72350" },
     {
       city: "Morc Saint Jean",
-      locality: "Dr. Delaitre Avenue",
+      locality: "Dr. Delaitre ",
       postalCode: "72238",
     },
     {
@@ -11598,14 +11585,14 @@ const TizardinAiPostalCodeFinder = () => {
       locality: "Cypres lane 2",
       postalCode: "73452",
     },
-    { city: "Palma 1", locality: "Bissessur Ave", postalCode: "72444" },
+    { city: "Palma 1", locality: "Bissessur ", postalCode: "72444" },
     {
       city: "Palma 2",
       locality:
         "Palma Rd (south) from Chemin Machine to Pierrefonds Round About",
       postalCode: "72445",
     },
-    { city: "Quatre Bornes", locality: "Buswell Ave", postalCode: "72249" },
+    { city: "Quatre Bornes", locality: "Buswell ", postalCode: "72249" },
     {
       city: "Quatre Bornes",
       locality: "Bernandin De St. Pierre",
@@ -11613,7 +11600,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Morc Saint Jean",
-      locality: "Jacinthes Avenue",
+      locality: "Jacinthes ",
       postalCode: "72238",
     },
     {
@@ -11621,9 +11608,9 @@ const TizardinAiPostalCodeFinder = () => {
       locality: "Lall Bahadur Shastri (southern side)",
       postalCode: "73452",
     },
-    { city: "Palma 1", locality: "Canal Ave", postalCode: "72444" },
-    { city: "Palma 2", locality: "Jeewoonarain Avenue", postalCode: "72445" },
-    { city: "Quatre Bornes", locality: "C. Dunant Ave", postalCode: "72249" },
+    { city: "Palma 1", locality: "Canal ", postalCode: "72444" },
+    { city: "Palma 2", locality: "Jeewoonarain ", postalCode: "72445" },
+    { city: "Quatre Bornes", locality: "C. Dunant ", postalCode: "72249" },
     {
       city: "Quatre Bornes",
       locality: "Berthaud (east) from St Jean Rd to S.V.Naz",
@@ -11639,13 +11626,13 @@ const TizardinAiPostalCodeFinder = () => {
       locality: "Ramburrun Lane",
       postalCode: "73452",
     },
-    { city: "Palma 1", locality: "Charlie Ave", postalCode: "72444" },
+    { city: "Palma 1", locality: "Charlie ", postalCode: "72444" },
     { city: "Quatre Bornes", locality: "Jugnauth Lane", postalCode: "72445" },
-    { city: "Quatre Bornes", locality: "C. Hall Ave", postalCode: "72249" },
+    { city: "Quatre Bornes", locality: "C. Hall ", postalCode: "72249" },
     {
       city: "Morc Saint Jean",
       locality:
-        "S. Seewoosagur Ramgoolam Ave (both sides) from Newton to Trunk Rd",
+        "S. Seewoosagur Ramgoolam  (both sides) from Newton to Trunk Rd",
       postalCode: "72238",
     },
     {
@@ -11655,42 +11642,42 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Palma 1",
-      locality: "Cremation Avenue (whole)",
+      locality: "Cremation  (whole)",
       postalCode: "72444",
     },
-    { city: "Palma 2", locality: "St Brigitte Avenue", postalCode: "72445" },
-    { city: "Quatre Bornes", locality: "Commerson Ave", postalCode: "72249" },
+    { city: "Palma 2", locality: "St Brigitte ", postalCode: "72445" },
+    { city: "Quatre Bornes", locality: "Commerson ", postalCode: "72249" },
     {
       city: "Morc Saint Jean",
-      locality: "Trianon Avenue No. 1",
+      locality: "Trianon  No. 1",
       postalCode: "72238",
     },
     { city: "Paillotte (East)", locality: "Sumoondar Rd", postalCode: "73452" },
     {
       city: "Palma 1",
-      locality: "Cremation lane (from Cremation Ave to Palma Rd)",
+      locality: "Cremation lane (from Cremation  to Palma Rd)",
       postalCode: "72444",
     },
     { city: "Palma 2", locality: "St Brigitte Church", postalCode: "72445" },
-    { city: "Quatre Bornes", locality: "D'Epinay Ave", postalCode: "72249" },
+    { city: "Quatre Bornes", locality: "D'Epinay ", postalCode: "72249" },
     {
       city: "Morc Saint Jean",
-      locality: "Trianon Avenue No. 2",
+      locality: "Trianon  No. 2",
       postalCode: "72238",
     },
     { city: "Paillotte (East)", locality: "Sumputh Rd", postalCode: "73452" },
     { city: "Palma 1", locality: "Eucalyptus lane", postalCode: "72444" },
     { city: "Palma 2", locality: "Cheshire Home", postalCode: "72445" },
-    { city: "Quatre Bornes", locality: "D'Hotman Ave", postalCode: "72249" },
+    { city: "Quatre Bornes", locality: "D'Hotman ", postalCode: "72249" },
     {
       city: "Morc Saint Jean",
-      locality: "Ylang Ylang Avenue",
+      locality: "Ylang Ylang ",
       postalCode: "72238",
     },
     { city: "Paillotte (West)", locality: "Augum lane", postalCode: "73360" },
-    { city: "Palma 1", locality: "Gangadar Ave", postalCode: "72444" },
+    { city: "Palma 1", locality: "Gangadar ", postalCode: "72444" },
     { city: "Palma 2", locality: "Lawat lane", postalCode: "72445" },
-    { city: "Quatre Bornes", locality: "Fareed Ave", postalCode: "72249" },
+    { city: "Quatre Bornes", locality: "Fareed ", postalCode: "72249" },
     {
       city: "La Louise",
       locality: "Royal Rd (east) from S.S.Ramgoolam to Cossigny",
@@ -11705,7 +11692,7 @@ const TizardinAiPostalCodeFinder = () => {
     { city: "Les Halles", locality: "", postalCode: "72264" },
     {
       city: "Morc Saint Jean",
-      locality: "Avenue des Lataniers",
+      locality: " des Lataniers",
       postalCode: "72238",
     },
     {
@@ -11720,14 +11707,14 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "La Source",
-      locality: "Cremation Lane (from Cremation Ave to Puspass)",
+      locality: "Cremation Lane (from Cremation  to Puspass)",
       postalCode: "72427",
     },
     { city: "La Source", locality: "Orange Lane", postalCode: "72427" },
     { city: "Morc Cerisier", locality: "", postalCode: "72529" },
     {
       city: "Morc Saint Jean",
-      locality: "Avenue des Longaniers",
+      locality: " des Longaniers",
       postalCode: "72238",
     },
     { city: "Dreamton Park", locality: "", postalCode: "72219" },
@@ -11749,7 +11736,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Morc Saint Jean",
-      locality: "Avenue des Manguiers",
+      locality: " des Manguiers",
       postalCode: "72238",
     },
     { city: "Emerald Park (Residence)", locality: "", postalCode: "72222" },
@@ -11767,7 +11754,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Morc Saint Jean",
-      locality: "Avenue des Orchidees",
+      locality: " des Orchidees",
       postalCode: "72238",
     },
     { city: "Emerald Park Centre", locality: "", postalCode: "72262" },
@@ -11777,7 +11764,7 @@ const TizardinAiPostalCodeFinder = () => {
       postalCode: "72326",
     },
     { city: "La Source", locality: "Gangama Lane", postalCode: "72427" },
-    { city: "La Source", locality: "Puspass Ave", postalCode: "72427" },
+    { city: "La Source", locality: "Puspass ", postalCode: "72427" },
     {
       city: "Ebene Views (after river inc Baden Powell house)",
       locality: "",
@@ -11785,27 +11772,27 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Morc Saint Jean",
-      locality: "Avenue des Palmiers",
+      locality: " des Palmiers",
       postalCode: "72238",
     },
     { city: "La Colline Commercial Centre", locality: "", postalCode: "72224" },
     { city: "Quatre Bornes", locality: "Pillay lane", postalCode: "72326" },
     { city: "La Source", locality: "Gopal Lane", postalCode: "72427" },
-    { city: "La Source", locality: "Rajcoomar Ave", postalCode: "72427" },
+    { city: "La Source", locality: "Rajcoomar ", postalCode: "72427" },
     { city: "Morc Medine", locality: "", postalCode: "72533" },
     {
       city: "Morc Saint Jean",
-      locality: "Avenue des Rosiers",
+      locality: " des Rosiers",
       postalCode: "72238",
     },
-    { city: "La Ferme", locality: "Ave", postalCode: "72425" },
-    { city: "La Louise", locality: "Liston Ave", postalCode: "72326" },
+    { city: "La Ferme", locality: "", postalCode: "72425" },
+    { city: "La Louise", locality: "Liston ", postalCode: "72326" },
     { city: "La Source", locality: "Grassy Lane", postalCode: "72427" },
     { city: "La Source", locality: "Rotin lane", postalCode: "72427" },
     { city: "Morc Nuckcheddy", locality: "", postalCode: "72534" },
     {
       city: "Morc Saint Jean",
-      locality: "Avenue des Talipots",
+      locality: " des Talipots",
       postalCode: "72238",
     },
     {
@@ -11813,13 +11800,13 @@ const TizardinAiPostalCodeFinder = () => {
       locality: "Western Boundary (east) from Nehru Rd to Northern Boundary",
       postalCode: "72326",
     },
-    { city: "La Louise", locality: "R.Rivet Ave", postalCode: "72326" },
+    { city: "La Louise", locality: "R.Rivet ", postalCode: "72326" },
     { city: "La Source", locality: "Imp. Cocotier", postalCode: "72427" },
     { city: "La Source", locality: "Rotin lane 2", postalCode: "72427" },
     { city: "Morc Pierrefonds", locality: "", postalCode: "72435" },
     {
       city: "Morc Saint Jean",
-      locality: "Avenue des Tulipes",
+      locality: " des Tulipes",
       postalCode: "72238",
     },
     {
@@ -11827,13 +11814,13 @@ const TizardinAiPostalCodeFinder = () => {
       locality: "Northern Boundary (south)",
       postalCode: "72326",
     },
-    { city: "La Louise", locality: "Beaugeard Ave", postalCode: "72326" },
+    { city: "La Louise", locality: "Beaugeard ", postalCode: "72326" },
     { city: "La Source", locality: "Imp. Fuguier", postalCode: "72427" },
     { city: "La Source", locality: "Rotin lane 3", postalCode: "72427" },
     { city: "Morc Poonith", locality: "", postalCode: "72436" },
     {
       city: "Morc Saint Jean",
-      locality: "Belcourt Avenue",
+      locality: "Belcourt ",
       postalCode: "72238",
     },
     {
@@ -11844,13 +11831,13 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "La Louise",
-      locality: "Fraternite Ave from Kingstone to Royal Rd",
+      locality: "Fraternite  from Kingstone to Royal Rd",
       postalCode: "72326",
     },
     { city: "La Source", locality: "Imp. Hibiscus", postalCode: "72427" },
     {
       city: "La Source",
-      locality: "S. V. Murugan Ave from Northern Boundary to Seeneevassen",
+      locality: "S. V. Murugan  from Northern Boundary to Seeneevassen",
       postalCode: "72427",
     },
     { city: "Morc Riverside", locality: "", postalCode: "72537" },
@@ -11859,21 +11846,21 @@ const TizardinAiPostalCodeFinder = () => {
       locality: "St Jean (south) from La Croisee La Louise to Bigaignon",
       postalCode: "72326",
     },
-    { city: "La Louise", locality: "La Louise Ave", postalCode: "72326" },
-    { city: "La Source", locality: "Jaylall Avenue", postalCode: "72427" },
+    { city: "La Louise", locality: "La Louise ", postalCode: "72326" },
+    { city: "La Source", locality: "Jaylall ", postalCode: "72427" },
     {
       city: "La Source",
-      locality: "S.V.Murugan Ave (west) from Palma Rd to Northern Boundary",
+      locality: "S.V.Murugan  (west) from Palma Rd to Northern Boundary",
       postalCode: "72427",
     },
     {
       city: "Morc Saint Jean",
-      locality: "Avenue des Azalees",
+      locality: " des Azalees",
       postalCode: "72238",
     },
     {
       city: "La Louise",
-      locality: "Wellington Ave (south) from Bigaignon to T D'Avice",
+      locality: "Wellington  (south) from Bigaignon to T D'Avice",
       postalCode: "72326",
     },
     { city: "La Louise", locality: "Louis Nellan lane", postalCode: "72326" },
@@ -11881,7 +11868,7 @@ const TizardinAiPostalCodeFinder = () => {
     { city: "La Source", locality: "Selvin Lane", postalCode: "72427" },
     {
       city: "Morc Saint Jean",
-      locality: "Avenue des Capucines",
+      locality: " des Capucines",
       postalCode: "72238",
     },
     {
@@ -11894,7 +11881,7 @@ const TizardinAiPostalCodeFinder = () => {
       locality: "Royal Rd from H.Blood to Croisee La Louise",
       postalCode: "72326",
     },
-    { city: "La Source", locality: "La Source Ave", postalCode: "72427" },
+    { city: "La Source", locality: "La Source ", postalCode: "72427" },
     {
       city: "La Source",
       locality: "Temple Lane (C D Garde Lane)",
@@ -11902,7 +11889,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Morc Saint Jean",
-      locality: "Avenue des Girofliers",
+      locality: " des Girofliers",
       postalCode: "72238",
     },
     {
@@ -11915,7 +11902,7 @@ const TizardinAiPostalCodeFinder = () => {
     { city: "La Source", locality: "Western Boundary", postalCode: "72427" },
     {
       city: "Morc Saint Jean",
-      locality: "Avenue des Glaieuls",
+      locality: " des Glaieuls",
       postalCode: "72238",
     },
     {
@@ -11932,7 +11919,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Morc Saint Jean",
-      locality: "Avenue des Goyaviers",
+      locality: " des Goyaviers",
       postalCode: "72238",
     },
     {
@@ -11942,19 +11929,19 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "La Source",
-      locality: "Berthaud (west) from North Boundary to Boundary Ave",
+      locality: "Berthaud (west) from North Boundary to Boundary ",
       postalCode: "72427",
     },
     { city: "La Source", locality: "Morc. Coombes", postalCode: "72427" },
     { city: "Le Merit 2 (near Pellegrin)", locality: "", postalCode: "72263" },
     {
       city: "Morc Saint Jean",
-      locality: "Avenue des Jacarandas",
+      locality: " des Jacarandas",
       postalCode: "72238",
     },
     {
       city: "Beau Sejour 2",
-      locality: "Conte de Lisle Ave from Victoria to R.Ollier",
+      locality: "Conte de Lisle  from Victoria to R.Ollier",
       postalCode: "72104",
     },
     {
@@ -11964,7 +11951,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Belle Rose 5",
-      locality: "Sir V.Naz Ave (south) from Lapeyrouse Ave to G.Ythier Ave",
+      locality: "Sir V.Naz  (south) from Lapeyrouse  to G.Ythier ",
       postalCode: "72109",
     },
     {
@@ -11974,84 +11961,84 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Cite Candos/Residence",
-      locality: "La Paix Ave from Royal Rd to Kingstone",
+      locality: "La Paix  from Royal Rd to Kingstone",
       postalCode: "72314",
     },
     {
       city: "Cite Kennedy/Residence",
-      locality: "La paix Ave (north) from Kinstone Ave to Seechurn Ave",
+      locality: "La paix  (north) from Kinstone  to Seechurn ",
       postalCode: "72515",
     },
     {
       city: "Cite Saint Jean",
-      locality: "Ave Talipots (north) From Azalees to Tulipes",
+      locality: " Talipots (north) From Azalees to Tulipes",
       postalCode: "72218",
     },
     {
       city: "Beau Sejour 2",
-      locality: "Dr Ross Ave from Ollier to Naz",
+      locality: "Dr Ross  from Ollier to Naz",
       postalCode: "72104",
     },
     {
       city: "Belle Rose 4",
-      locality: "Royal Rd from St Jean Church to Guy Forget Ave",
+      locality: "Royal Rd from St Jean Church to Guy Forget ",
       postalCode: "72208",
     },
     {
       city: "Belle Rose 5",
-      locality: "St Jean Ave (north) from Telfair Ave to St Jean Church",
+      locality: "St Jean  (north) from Telfair  to St Jean Church",
       postalCode: "72109",
     },
     {
       city: "Cite Beau Sejour/Residence",
-      locality: "Dawtall Lane (East) from Boundary to R.E.Hart Avenue",
+      locality: "Dawtall Lane (East) from Boundary to R.E.Hart ",
       postalCode: "72313",
     },
     {
       city: "Cite Candos/Residence",
-      locality: "Lavoipierre Ave",
+      locality: "Lavoipierre ",
       postalCode: "72314",
     },
     {
       city: "Cite Kennedy/Residence",
-      locality: "L'Avenir Ave",
+      locality: "L'nir ",
       postalCode: "72515",
     },
     {
       city: "Beau Sejour 2",
-      locality: "Gladstone Ave from Ollier to Hitchcock",
+      locality: "Gladstone  from Ollier to Hitchcock",
       postalCode: "72104",
     },
     { city: "Belle Rose 4", locality: "St. Jean Church", postalCode: "72208" },
     {
       city: "Belle Rose 5",
-      locality: "Telfair Ave (east) from St Jean Ave to Guy Forget",
+      locality: "Telfair  (east) from St Jean  to Guy Forget",
       postalCode: "72109",
     },
     {
       city: "Cite Beau Sejour/Residence",
-      locality: "R.E.Hart Avenue (north part) from Dawtall lane to Rev Lebrun",
+      locality: "R.E.Hart  (north part) from Dawtall lane to Rev Lebrun",
       postalCode: "72313",
     },
     {
       city: "Cite Candos/Residence",
-      locality: "Mazery Ave",
+      locality: "Mazery ",
       postalCode: "72314",
     },
     {
       city: "Cite Kennedy/Residence",
-      locality: "L'Union Ave",
+      locality: "L'Union ",
       postalCode: "72515",
     },
     {
       city: "Beau Sejour 2",
-      locality: "Hitchcock Ave (east) from Victoria to R.Ollier Ave",
+      locality: "Hitchcock  (east) from Victoria to R.Ollier ",
       postalCode: "72104",
     },
-    { city: "Belle Rose 4", locality: "St. Louis Ave", postalCode: "72208" },
+    { city: "Belle Rose 4", locality: "St. Louis ", postalCode: "72208" },
     {
       city: "Belle Rose 5",
-      locality: "Telfair Ave from Guy Forget to Mallefille",
+      locality: "Telfair  from Guy Forget to Mallefille",
       postalCode: "72109",
     },
     {
@@ -12066,18 +12053,18 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Cite Kennedy/Residence",
-      locality: "Patrie Ave",
+      locality: "Patrie ",
       postalCode: "72515",
     },
     {
       city: "Beau Sejour 2",
-      locality: "Murray Ave from Naz to C. Antelme Ave",
+      locality: "Murray  from Naz to C. Antelme ",
       postalCode: "72104",
     },
-    { city: "Belle Rose 5", locality: "Ave Belle Rose", postalCode: "72109" },
+    { city: "Belle Rose 5", locality: " Belle Rose", postalCode: "72109" },
     {
       city: "Belle Rose 5",
-      locality: "Wilson Ave from Lapeyrouse to Draper",
+      locality: "Wilson  from Lapeyrouse to Draper",
       postalCode: "72109",
     },
     {
@@ -12087,22 +12074,22 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Cite Kennedy/Residence",
-      locality: "Concorde Ave",
+      locality: "Concorde ",
       postalCode: "72515",
     },
     {
       city: "Cite Kennedy/Residence",
-      locality: "R.E.Hart Ave",
+      locality: "R.E.Hart ",
       postalCode: "72515",
     },
     {
       city: "Beau Sejour 2",
-      locality: "Naz Ave from Victoria to Hitchcock",
+      locality: "Naz  from Victoria to Hitchcock",
       postalCode: "72104",
     },
     {
       city: "Belle Rose 5",
-      locality: "Broad Ave from Surath Ave to Colville Ave",
+      locality: "Broad  from Surath  to Colville ",
       postalCode: "72109",
     },
     {
@@ -12117,12 +12104,12 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Cite Kennedy/Residence",
-      locality: "Confiance Ave",
+      locality: "Confiance ",
       postalCode: "72515",
     },
     {
       city: "Cite Kennedy/Residence",
-      locality: "S.H.Blood Ave from Kingstone Ave to L'Esperance Ave",
+      locality: "S.H.Blood  from Kingstone  to L'Esperance ",
       postalCode: "72515",
     },
     {
@@ -12132,7 +12119,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Belle Rose 5",
-      locality: "Colville Ave (west) from Broad Ave to Wilson Ave",
+      locality: "Colville  (west) from Broad  to Wilson ",
       postalCode: "72109",
     },
     { city: "Boundary", locality: "Farquhar Lane", postalCode: "72310" },
@@ -12143,15 +12130,15 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Cite Kennedy/Residence",
-      locality: "Dignite Ave",
+      locality: "Dignite ",
       postalCode: "72515",
     },
     {
       city: "Cite Kennedy/Residence",
-      locality: "Seechurn Ave (east) from Ave Fraternite to La paix Ave",
+      locality: "Seechurn  (east) from  Fraternite to La paix ",
       postalCode: "72515",
     },
-    { city: "Beau Sejour 2", locality: "R. Giraud Ave", postalCode: "72104" },
+    { city: "Beau Sejour 2", locality: "R. Giraud ", postalCode: "72104" },
     {
       city: "Belle Rose 5",
       locality: "De La Faye Streen",
@@ -12159,7 +12146,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Boundary",
-      locality: "Farquhar Ave( east) from Boundary to Ollier",
+      locality: "Farquhar ( east) from Boundary to Ollier",
       postalCode: "72310",
     },
     {
@@ -12169,17 +12156,17 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Cite Kennedy/Residence",
-      locality: "Dr Iqbal Ave",
+      locality: "Dr Iqbal ",
       postalCode: "72515",
     },
     {
       city: "Cite Kennedy/Residence",
-      locality: "Tolerance Ave",
+      locality: "Tolerance ",
       postalCode: "72515",
     },
     {
       city: "Beau Sejour 2",
-      locality: "Victoria Ave(west) from Hitchcock to Ollier Ave",
+      locality: "Victoria (west) from Hitchcock to Ollier ",
       postalCode: "72104",
     },
     { city: "Belle Rose 5", locality: "Domun lane", postalCode: "72109" },
@@ -12191,17 +12178,17 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Cite Kennedy/Residence",
-      locality: "Dr Riviere Ave",
+      locality: "Dr Riviere ",
       postalCode: "72515",
     },
     {
       city: "Cite Kennedy/Residence",
-      locality: "Travail Ave",
+      locality: "Travail ",
       postalCode: "72515",
     },
     {
       city: "Beau Sejour 1",
-      locality: "Telfair Ave from Naz Ave to Mallefille",
+      locality: "Telfair  from Naz  to Mallefille",
       postalCode: "72103",
     },
     {
@@ -12211,12 +12198,12 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Belle Rose 5",
-      locality: "Doyen Ave (east) from Naz to Guy Forget",
+      locality: "Doyen  (east) from Naz to Guy Forget",
       postalCode: "72109",
     },
     {
       city: "Boundary",
-      locality: "Ollier (north) from Stanley Ave to Farquhar",
+      locality: "Ollier (north) from Stanley  to Farquhar",
       postalCode: "72310",
     },
     {
@@ -12226,21 +12213,21 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Cite Kennedy/Residence",
-      locality: "Dumas Ave",
+      locality: "Dumas ",
       postalCode: "72515",
     },
-    { city: "Cite Pere Laval", locality: "Anime Ave", postalCode: "72317" },
+    { city: "Cite Pere Laval", locality: "Anime ", postalCode: "72317" },
     {
       city: "Beau Sejour 1",
-      locality: "Draper Ave from Naz to Lapeyrouse",
+      locality: "Draper  from Naz to Lapeyrouse",
       postalCode: "72103",
     },
     {
       city: "Belle Rose 4",
-      locality: "Broad Ave from Royal Rd to Colville Ave",
+      locality: "Broad  from Royal Rd to Colville ",
       postalCode: "72208",
     },
-    { city: "Belle Rose 5", locality: "Draper Ave", postalCode: "72109" },
+    { city: "Belle Rose 5", locality: "Draper ", postalCode: "72109" },
     { city: "Candos", locality: "Candos Lane East", postalCode: "72211" },
     {
       city: "Cite Beau Sejour/Residence",
@@ -12249,23 +12236,23 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Cite Kennedy/Residence",
-      locality: "Esperance Ave",
+      locality: "Esperance ",
       postalCode: "72515",
     },
-    { city: "Cite Pere Laval", locality: "Rajkumar Ave", postalCode: "72317" },
+    { city: "Cite Pere Laval", locality: "Rajkumar ", postalCode: "72317" },
     {
       city: "Beau Sejour 1",
-      locality: "G.Ythier from Naz Ave to Malfille Ave",
+      locality: "G.Ythier from Naz  to Malfille ",
       postalCode: "72103",
     },
     {
       city: "Belle Rose 4",
-      locality: "Colville Ave (east) from Broad Ave to Decaen Ave",
+      locality: "Colville  (east) from Broad  to Decaen ",
       postalCode: "72208",
     },
     {
       city: "Belle Rose 5",
-      locality: "Guy Forget (B Rose Ave) from Telfair Ave to Colville Ave",
+      locality: "Guy Forget (B Rose ) from Telfair  to Colville ",
       postalCode: "72109",
     },
     {
@@ -12280,12 +12267,12 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Cite Kennedy/Residence",
-      locality: "Fraternite Ave (south) from Kingstone Ave to Seechurn Ave",
+      locality: "Fraternite  (south) from Kingstone  to Seechurn ",
       postalCode: "72515",
     },
     {
       city: "Cite Pere Laval",
-      locality: "G. Rozemont Ave",
+      locality: "G. Rozemont ",
       postalCode: "72317",
     },
     {
@@ -12295,23 +12282,23 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Belle Rose 4",
-      locality: "Guy Forget (B Rose Ave) from Royal to Colville",
+      locality: "Guy Forget (B Rose ) from Royal to Colville",
       postalCode: "72208",
     },
     {
       city: "Belle Rose 5",
-      locality: "Guy Forget (northern side) from Telfair Ave to Doyen Ave",
+      locality: "Guy Forget (northern side) from Telfair  to Doyen ",
       postalCode: "72109",
     },
     { city: "Cite Bassin", locality: "Apolonia Lane", postalCode: "72512" },
     {
       city: "Cite Candos/Residence",
-      locality: "Chaperon Ave",
+      locality: "Chaperon ",
       postalCode: "72314",
     },
     {
       city: "Cite Kennedy/Residence",
-      locality: "Gandhi Ave",
+      locality: "Gandhi ",
       postalCode: "72515",
     },
     {
@@ -12319,22 +12306,22 @@ const TizardinAiPostalCodeFinder = () => {
       locality: "Rev Lebrun Lane (east side)",
       postalCode: "72317",
     },
-    { city: "Beau Sejour 1", locality: "Telfair Ave", postalCode: "72103" },
+    { city: "Beau Sejour 1", locality: "Telfair ", postalCode: "72103" },
     { city: "Belle Rose 4", locality: "Harrow lane", postalCode: "72208" },
     {
       city: "Belle Rose 5",
-      locality: "Mallefille Ave from Lapeyrouse Ave to Doyen Ave",
+      locality: "Mallefille  from Lapeyrouse  to Doyen ",
       postalCode: "72109",
     },
     { city: "Cite Bassin", locality: "Arobi Lane", postalCode: "72512" },
     {
       city: "Cite Candos/Residence",
-      locality: "Colin Ave",
+      locality: "Colin ",
       postalCode: "72314",
     },
     {
       city: "Cite Kennedy/Residence",
-      locality: "Independence Ave",
+      locality: "Independence ",
       postalCode: "72515",
     },
     {
@@ -12344,7 +12331,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Beau Sejour 1",
-      locality: "Sir V.Naz Ave (north) from Lapeyrouse Ave to G.Ythier Ave",
+      locality: "Sir V.Naz  (north) from Lapeyrouse  to G.Ythier ",
       postalCode: "72103",
     },
     { city: "Belle Rose 4", locality: "Harry lane", postalCode: "72208" },
@@ -12357,21 +12344,20 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Cite Kennedy/Residence",
-      locality: "Kingstone Ave(west) from Fraternite Ave to La Paix Ave",
+      locality: "Kingstone (west) from Fraternite  to La Paix ",
       postalCode: "72515",
     },
     {
       city: "Cite Saint Jean",
-      locality:
-        "Avenue des Tulipes (west part) from Ave Talipots to St Jean Rd",
+      locality: " des Tulipes (west part) from  Talipots to St Jean Rd",
       postalCode: "72218",
     },
     {
       city: "Beau Sejour 2",
-      locality: "C.Antelme Ave from Victoria to Hitchcock",
+      locality: "C.Antelme  from Victoria to Hitchcock",
       postalCode: "72104",
     },
-    { city: "Belle Rose 4", locality: "Jerningham Ave", postalCode: "72208" },
+    { city: "Belle Rose 4", locality: "Jerningham ", postalCode: "72208" },
     { city: "Belle Rose 5", locality: "Poivre St", postalCode: "72109" },
     { city: "Cite Bassin", locality: "Tiraka Lane", postalCode: "72512" },
     {
@@ -12381,47 +12367,46 @@ const TizardinAiPostalCodeFinder = () => {
     },
     {
       city: "Cite Kennedy/Residence",
-      locality: 'L"Egalite Ave',
+      locality: 'L"Egalite ',
       postalCode: "72515",
     },
     {
       city: "Cite Saint Jean",
-      locality:
-        "Avenue des Azalees (east part) from Ave Talipots to St Jean Rd",
+      locality: " des Azalees (east part) from  Talipots to St Jean Rd",
       postalCode: "72218",
     },
-    { city: "Bassin/Palma", locality: "Ave Trotter", postalCode: "72501" },
-    { city: "Jackson Ave", locality: "Karooa Avenue", postalCode: "72523" },
-    { city: "Palma Junction", locality: "Seetloo Ave", postalCode: "72546" },
+    { city: "Bassin/Palma", locality: " Trotter", postalCode: "72501" },
+    { city: "Jackson ", locality: "Karooa ", postalCode: "72523" },
+    { city: "Palma Junction", locality: "Seetloo ", postalCode: "72546" },
     { city: "Bassin/Palma", locality: "Bapamah lane", postalCode: "72501" },
-    { city: "Jackson Ave", locality: "Koosseeal lane", postalCode: "72523" },
+    { city: "Jackson ", locality: "Koosseeal lane", postalCode: "72523" },
     { city: "Palma Junction", locality: "Shakti lane", postalCode: "72546" },
     { city: "Bassin/Palma", locality: "Bassin Rd", postalCode: "72501" },
-    { city: "Jackson Ave", locality: "Kowlessur lane", postalCode: "72523" },
+    { city: "Jackson ", locality: "Kowlessur lane", postalCode: "72523" },
     { city: "Palma Junction", locality: "Toolsee lane", postalCode: "72546" },
     { city: "Bassin/Palma", locality: "Bassin lane 1", postalCode: "72501" },
-    { city: "Jackson Ave", locality: "Lotus lane", postalCode: "72523" },
+    { city: "Jackson ", locality: "Lotus lane", postalCode: "72523" },
     { city: "Bassin SE", locality: "", postalCode: "72502" },
     { city: "Bassin/Palma", locality: "Casquette lane", postalCode: "72501" },
-    { city: "Jackson Ave", locality: "Manick lane", postalCode: "72523" },
-    { city: "Beau Sejour 1", locality: "Sir V.Naz Ave", postalCode: "72103" },
+    { city: "Jackson ", locality: "Manick lane", postalCode: "72523" },
+    { city: "Beau Sejour 1", locality: "Sir V.Naz ", postalCode: "72103" },
     {
       city: "Bassin/Palma",
       locality: "Chooroomoonee lane",
       postalCode: "72501",
     },
-    { city: "Jackson Ave", locality: "Mere Theresa Ave", postalCode: "72523" },
-    { city: "Beau Sejour 1", locality: "G. Ithier Ave", postalCode: "72103" },
+    { city: "Jackson ", locality: "Mere Theresa ", postalCode: "72523" },
+    { city: "Beau Sejour 1", locality: "G. Ithier ", postalCode: "72103" },
     { city: "Bassin/Palma", locality: "Cooperative lane", postalCode: "72501" },
-    { city: "Jackson Ave", locality: "Naiko lane", postalCode: "72523" },
+    { city: "Jackson ", locality: "Naiko lane", postalCode: "72523" },
     {
       city: "Beau Sejour 1",
       locality: "Mallefille lane 1",
       postalCode: "72103",
     },
-    { city: "Bassin/Palma", locality: "La Paix Ave", postalCode: "72501" },
+    { city: "Bassin/Palma", locality: "La Paix ", postalCode: "72501" },
     {
-      city: "Jackson Ave",
+      city: "Jackson ",
       locality: "Nehru Rd (both sides from Kingstone to Kalimaye Rd)",
       postalCode: "72523",
     },
@@ -12432,26 +12417,26 @@ const TizardinAiPostalCodeFinder = () => {
     },
     { city: "Bassin/Palma", locality: "Felico lane", postalCode: "72501" },
     {
-      city: "Jackson Ave",
+      city: "Jackson ",
       locality: "Nehru Rd (north side from Kingstone to Western Boundary)",
       postalCode: "72523",
     },
     {
       city: "Beau Sejour 1",
-      locality: "Sir V.Naz Ave (north) from Doyen to D'Epinay",
+      locality: "Sir V.Naz  (north) from Doyen to D'Epinay",
       postalCode: "72103",
     },
-    { city: "Bassin/Palma", locality: "Forges Ave", postalCode: "72501" },
-    { city: "Jackson Ave", locality: "Ramdanee Ave", postalCode: "72523" },
-    { city: "Bassin/Palma", locality: "Fraternite Ave", postalCode: "72501" },
+    { city: "Bassin/Palma", locality: "Forges ", postalCode: "72501" },
+    { city: "Jackson ", locality: "Ramdanee ", postalCode: "72523" },
+    { city: "Bassin/Palma", locality: "Fraternite ", postalCode: "72501" },
     {
-      city: "Jackson Ave",
+      city: "Jackson ",
       locality: "Chemin Machine (south) from Palma Rd to Kalimaye Rd",
       postalCode: "72523",
     },
     { city: "Bassin/Palma", locality: "Gaby lane", postalCode: "72501" },
     { city: "Palma Junction", locality: "Sambal Lane", postalCode: "72546" },
-    { city: "Bassin/Palma", locality: "Appadoo Avenue", postalCode: "72501" },
+    { city: "Bassin/Palma", locality: "Appadoo ", postalCode: "72501" },
     { city: "Bassin/Palma", locality: "Gopal Singh Lane", postalCode: "72501" },
     {
       city: "Palma Junction",
@@ -12466,19 +12451,19 @@ const TizardinAiPostalCodeFinder = () => {
       postalCode: "72546",
     },
     { city: "Bassin/Palma", locality: "Appadoo lane 1", postalCode: "72501" },
-    { city: "Jackson Ave", locality: "Jasmin lane", postalCode: "72523" },
+    { city: "Jackson ", locality: "Jasmin lane", postalCode: "72523" },
     {
       city: "Palma Junction",
       locality: "Palma Rd (south) from Western Boundary to Chemin Machine",
       postalCode: "72546",
     },
-    { city: "Bassin/Palma", locality: "Ave Des Roches", postalCode: "72501" },
+    { city: "Bassin/Palma", locality: " Des Roches", postalCode: "72501" },
     {
-      city: "Jackson Ave",
+      city: "Jackson ",
       locality: "Kalimaye lane (east) from Nehru to Chemin Machine",
       postalCode: "72523",
     },
-    { city: "Palma Junction", locality: "Seechurn Ave", postalCode: "72546" },
+    { city: "Palma Junction", locality: "Seechurn ", postalCode: "72546" },
     { city: "Morc New Town", locality: "Pluton", postalCode: "71407" },
     {
       city: "Residence St Daniel",
@@ -12489,7 +12474,7 @@ const TizardinAiPostalCodeFinder = () => {
     { city: "Verger Bissambar", locality: "School lane", postalCode: "71410" },
     {
       city: "Morc New Town",
-      locality: "Roches Brunes Ave (part) north",
+      locality: "Roches Brunes  (part) north",
       postalCode: "71407",
     },
     {
@@ -12611,7 +12596,7 @@ const TizardinAiPostalCodeFinder = () => {
     { city: "Police Flats 1", locality: "Police Flats 1", postalCode: "71623" },
     {
       city: "Roches Brunes",
-      locality: "North side of Roches Brunes Avenue up to Ariane",
+      locality: "North side of Roches Brunes  up to Ariane",
       postalCode: "71409",
     },
     { city: "Verger Bissambar", locality: "P.Boodhram", postalCode: "71410" },
@@ -12642,7 +12627,7 @@ const TizardinAiPostalCodeFinder = () => {
     { city: "Morc Clairmont", locality: "Castafiore", postalCode: "71611" },
     { city: "Morc La Comete", locality: "Challenger", postalCode: "71406" },
     {
-      city: "Morcellement LIM FAT",
+      city: "LIM FAT",
       locality: "Riverside",
       postalCode: "71616",
     },
@@ -12651,7 +12636,7 @@ const TizardinAiPostalCodeFinder = () => {
     { city: "Morc Clairmont", locality: "Tournesol", postalCode: "71611" },
     { city: "Morc La Comete", locality: "Columbia", postalCode: "71406" },
     {
-      city: "Morcellement LIM FAT",
+      city: "LIM FAT",
       locality: "Including ROYAL RD",
       postalCode: "71616",
     },
@@ -12673,7 +12658,7 @@ const TizardinAiPostalCodeFinder = () => {
     { city: "Montreal 2", locality: "Iris", postalCode: "71618" },
     { city: "Mont Roches", locality: "Railway", postalCode: "71405" },
     {
-      city: "Morcellement Hart de Keating",
+      city: "Hart de Keating",
       locality: "Grenade Lane",
       postalCode: "71612",
     },
@@ -12687,7 +12672,7 @@ const TizardinAiPostalCodeFinder = () => {
     { city: "Montreal 2", locality: "Jasmin", postalCode: "71618" },
     { city: "Mont Roches", locality: "Ramnanain Lallah", postalCode: "71405" },
     {
-      city: "Morcellement Hart de Keating",
+      city: "Hart de Keating",
       locality: "Hart de Keating Lane",
       postalCode: "71612",
     },
@@ -12701,7 +12686,7 @@ const TizardinAiPostalCodeFinder = () => {
       postalCode: "71405",
     },
     {
-      city: "Morcellement Hart de Keating",
+      city: "Hart de Keating",
       locality: "Quinc Coromandel",
       postalCode: "71612",
     },
@@ -12715,7 +12700,7 @@ const TizardinAiPostalCodeFinder = () => {
     { city: "Montreal 3", locality: "Montreal 3", postalCode: "71619" },
     { city: "Mont Roches", locality: "Shellgrove", postalCode: "71405" },
     {
-      city: "Morcellement Hart de Keating",
+      city: "Hart de Keating",
       locality: "Ramjan Lane",
       postalCode: "71612",
     },
@@ -12729,7 +12714,7 @@ const TizardinAiPostalCodeFinder = () => {
     },
     { city: "Mont Roches", locality: "Small Mountain", postalCode: "71405" },
     {
-      city: "Morcellement Hart de Keating",
+      city: "Hart de Keating",
       locality: "Royal Rd from Quin Coromandel to Panorama",
       postalCode: "71612",
     },
@@ -12746,14 +12731,14 @@ const TizardinAiPostalCodeFinder = () => {
       postalCode: "71407",
     },
     { city: "Mont Roches", locality: "Tamil Temple", postalCode: "71405" },
-    { city: "Morcellement Hermitage", locality: "Ceres", postalCode: "71613" },
+    { city: "Hermitage", locality: "Ceres", postalCode: "71613" },
     { city: "Morc La Comete", locality: "Jacmin (part)", postalCode: "71406" },
     { city: "Montreal 1", locality: "Dahlia", postalCode: "71617" },
     { city: "Montreal 2", locality: "Apricot", postalCode: "71618" },
     { city: "Morc New Town", locality: "Collins (part)", postalCode: "71407" },
     { city: "Mont Roches", locality: "Vetiver", postalCode: "71405" },
     {
-      city: "Morcellement Hermitage",
+      city: "Hermitage",
       locality: "Jupiter",
       postalCode: "71613",
     },
@@ -12765,7 +12750,7 @@ const TizardinAiPostalCodeFinder = () => {
     { city: "Montreal 1", locality: "Fuschia", postalCode: "71617" },
     { city: "Montreal 2", locality: "Avocado", postalCode: "71618" },
     { city: "Morc Avrillon", locality: "Bastien DaSilva", postalCode: "71516" },
-    { city: "Morcellement Hermitage", locality: "Mars", postalCode: "71613" },
+    { city: "Hermitage", locality: "Mars", postalCode: "71613" },
     { city: "Morc La Comete", locality: "Roblet", postalCode: "71406" },
     { city: "Montreal 1", locality: "Geranium", postalCode: "71617" },
     { city: "Montreal 2", locality: "Badamier", postalCode: "71618" },
@@ -13454,8 +13439,8 @@ const TizardinAiPostalCodeFinder = () => {
       locality: "Bois Doiseau",
       postalCode: "30901",
     },
-    { city: "L'Avenir", locality: "Beau Bois", postalCode: "80401" },
-    { city: "L'Avenir", locality: "L'Avenir", postalCode: "80402" },
+    { city: "L'nir", locality: "Beau Bois", postalCode: "80401" },
+    { city: "L'nir", locality: "L'nir", postalCode: "80402" },
     { city: "L'Escalier", locality: "Allée Jacques", postalCode: "61401" },
     { city: "L'Escalier", locality: "Camp La Hache", postalCode: "61402" },
     { city: "L'Escalier", locality: "Camp Tagore", postalCode: "61403" },
