@@ -13599,6 +13599,10 @@ const TizardinAiPostalCodeFinder = () => {
           >
             Tizardin AI Postal Code Finder
           </h1>
+
+          <p>
+            <strong>Avoid using "MORC", Morcellement, "Ave" or Avenue"</strong>{" "}
+          </p>
         </Col>
       </Row>
 
